@@ -5,7 +5,7 @@ ruby "2.3.0"
 # Project requirements
 gem "chronic"
 gem "erubis"
-gem "json"
+gem "json", ">= 2.3.0"
 gem "oj"
 gem "rack_csrf", :require => "rack/csrf"
 gem "rake"
