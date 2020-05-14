@@ -7,13 +7,13 @@ gem "chronic"
 gem "erubis"
 gem "json"
 gem "oj"
-gem "rack_csrf", :require => "rack/csrf"
+gem "rack_csrf", ">= 2.5.0", :require => "rack/csrf"
 gem "rake"
 gem "sanitize"
-gem "sinatra"
-gem "thin"
+gem "sinatra", ">= 2.0.0"
+gem "thin", ">= 1.7.0"
 
 # For dev
 group :development do
-  gem "shotgun"
+  gem "shotgun", ">= 0.9.1"
 end
