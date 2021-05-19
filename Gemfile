@@ -9,7 +9,7 @@ gem "json"
 gem "oj"
 gem "rack_csrf", :require => "rack/csrf"
 gem "rake"
-gem "sanitize"
+gem "sanitize", ">= 4.0.1"
 gem "sinatra"
 gem "thin"
 
