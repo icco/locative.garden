@@ -1,0 +1,8 @@
+{
+  "name": "locative.garden",
+  "version": "1.0.0",
+  "description": "A collection of short stories.",
+  "repository": "https://github.com/icco/locative.garden.git",
+  "author": "Nat Welch <nat@natwelch.com>",
+  "private": true
+}
