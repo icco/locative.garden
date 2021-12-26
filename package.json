@@ -5,6 +5,10 @@
   "repository": "https://github.com/icco/locative.garden.git",
   "author": "Nat Welch <nat@natwelch.com>",
   "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next"
+  },
   "dependencies": {
     "next": "^12.0.7",
     "nextra": "^1.1.0",
