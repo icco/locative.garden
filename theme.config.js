@@ -1,6 +1,6 @@
 export default {
   projectLink: 'https://github.com/icco/locative.garden', // GitHub link in the navbar
-  docsRepositoryBase: 'https://locative.garden', // base URL for the docs repository
+  docsRepositoryBase: 'https://github.com/icco/locative.garden/blob/main', // base URL for the docs repository
   titleSuffix: ' – locative.garden',
   nextLinks: true,
   prevLinks: true,
