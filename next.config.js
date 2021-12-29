@@ -1,5 +1,11 @@
-const withNextra = require('nextra')({
-  theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.js',
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [],
+  },
 })
-module.exports = withNextra()
+
+module.exports = withMDX({
+  pageExtensions: ['md', 'mdx'],
+})
