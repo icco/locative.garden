@@ -1,5 +1,3 @@
-import 'nextra-theme-docs/style.css'
-
-export default function Nextra({ Component, pageProps }) {
+export default function Locative({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
