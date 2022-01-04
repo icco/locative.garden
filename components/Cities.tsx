@@ -1,3 +1,1 @@
-
-export class Cities {
-}
+export class Cities {}
