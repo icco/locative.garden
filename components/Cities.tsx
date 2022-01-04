@@ -1,4 +1,4 @@
-import node from "d3file"
+import d3 from "d3"
 import rd3 from "react-d3-library"
 
 class Cities extends React.Component {
@@ -15,8 +15,9 @@ class Cities extends React.Component {
     const y = d3.scale.linear().rangeRound([0, height]).domain([90, -90])
     const yAxis = d3.svg.axis().scale(y).ticks(19).orient("left")
 
-    const svg = d3
-      .select("#content")
+    const node = document.createElement("div")
+
+    const svg = node
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -74,7 +75,7 @@ class Cities extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ d3: node })
+    this.setState({ d3: doSomething() })
   }
 
   render() {

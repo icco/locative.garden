@@ -6,6 +6,7 @@
   "author": "Nat Welch <nat@natwelch.com>",
   "private": true,
   "scripts": {
+    "dev": "yarn run lint && next",
     "build": "next build",
     "lint": "next lint --fix",
     "start": "next"
