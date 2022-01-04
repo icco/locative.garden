@@ -1,7 +1,8 @@
 import d3 from "d3"
+import { Component } from "react"
 import rd3 from "react-d3-library"
 
-class Cities extends React.Component {
+class Cities extends Component {
   constructor(props) {
     super(props)
     this.state = { d3: "" }
@@ -17,7 +18,8 @@ class Cities extends React.Component {
 
     const node = document.createElement("div")
 
-    const svg = node
+    const svg = d3
+      .select(node)
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -75,7 +77,7 @@ class Cities extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ d3: doSomething() })
+    this.setState({ d3: this.doSomething() })
   }
 
   render() {
