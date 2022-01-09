@@ -45,12 +45,6 @@
     "semi": false,
     "singleQuote": false
   },
-  "prettier": {
-    "trailingComma": "es5",
-    "tabWidth": 2,
-    "semi": false,
-    "singleQuote": false
-  },
   "remarkConfig": {
     "plugins": [
       "remark-preset-lint-markdown-style-guide",
