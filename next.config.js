@@ -1,11 +1,17 @@
+const remarkGfm = require('remark-gfm');
+const rehypeSlug = require('rehype-slug');
+
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [rehypeSlug],
   },
 })
 
 module.exports = withMDX({
-  pageExtensions: ['md', 'mdx'],
+  // Prefer loading of ES Modules over CommonJS
+  experimental: {esmExternals: true},
+  // Support MDX files as pages:
+  pageExtensions: ['md', 'mdx', 'tsx', 'ts', 'jsx', 'js'],
 })
