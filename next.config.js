@@ -1,11 +1,12 @@
-const withMDX = require('@next/mdx')({
+const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
+    remarkPlugins: [import("remark-gfm")],
+    rehypePlugins: [import("rehype-slug")],
   },
-})
+});
 
 module.exports = withMDX({
-  pageExtensions: ['md', 'mdx'],
-})
+  // Support MDX files as pages:
+  pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
+});
