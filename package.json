@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@mdx-js/loader": "^2.0.0-rc.2",
+    "@mdx-js/react": "^1.6.22",
     "@next/mdx": "^12.0.7",
     "next": "^12.0.7",
     "react": "^17.0.2",
@@ -21,6 +22,7 @@
     "remark-gfm": "^3.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-0",
     "@types/react": "^17.0.38",
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.8.1",
