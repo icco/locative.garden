@@ -5,6 +5,7 @@ import merge from "deepmerge"
 import usWeb from "typography-theme-us-web-design-standards"
 
 const typography = toTheme(usWeb)
+console.log(typography)
 
 export default makeTheme(
   merge(typography, {
@@ -14,14 +15,14 @@ export default makeTheme(
     },
 
     colors: {
-      text: "#000",
-      background: "#fff",
+      text: Nord.nord0,
+      background: Nord.nord8,
       primary: "#07c",
       secondary: "#b0b",
       modes: {
         dark: {
-          text: "#fff",
-          background: "#222",
+          text: Nord.nord6,
+          background: Nord.nord0,
           primary: "#0cf",
           secondary: "#faf",
         },
