@@ -1,4 +1,3 @@
-/** @jsxImportSource theme-ui */
 import Theme from "components/Theme"
 import { ClassAttributes, HTMLAttributes } from "react"
 import { SxProp, ThemeProvider } from "theme-ui"

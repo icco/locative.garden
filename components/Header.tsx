@@ -1,4 +1,3 @@
-/** @jsxImportSource theme-ui */
 import { useColorMode } from "theme-ui"
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
