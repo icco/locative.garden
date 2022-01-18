@@ -18,12 +18,14 @@
     "@mdx-js/loader": "^2.0.0-rc.2",
     "@mdx-js/react": "^1.6.22",
     "@next/mdx": "^12.0.7",
+    "@theme-ui/typography": "^0.13.1",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rehype-slug": "^5.0.1",
     "remark-gfm": "^3.0.1",
-    "theme-ui": "^0.13.1"
+    "theme-ui": "^0.13.1",
+    "typography-theme-us-web-design-standards": "^0.16.19"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
