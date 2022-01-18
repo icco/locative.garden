@@ -1,3 +1,4 @@
+import Layout from "components/Layout"
 import Head from "next/head"
 
 export default function Locative({ Component, pageProps }) {
@@ -6,7 +7,9 @@ export default function Locative({ Component, pageProps }) {
       <Head>
         <title>locative.garden</title>
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   )
 }

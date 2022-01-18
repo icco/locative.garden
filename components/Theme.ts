@@ -1,6 +1,6 @@
 import { Nord } from "@icco/react-common"
 import { toTheme } from "@theme-ui/typography"
-import merge from "lodash.merge"
+import merge from "deepmerge"
 import usWeb from "typography-theme-us-web-design-standards"
 
 const typography = toTheme(usWeb)
