@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import { useColorMode } from "theme-ui"
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ColorButton = ({ mode, ...props }) => (
   <button
     {...props}

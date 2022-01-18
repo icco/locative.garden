@@ -1,7 +1,7 @@
 /** @jsxImportSource theme-ui */
 import Theme from "components/Theme"
 import { ClassAttributes, HTMLAttributes } from "react"
-import { jsx, Styled, SxProp, ThemeProvider, useColorMode } from "theme-ui"
+import { SxProp, ThemeProvider } from "theme-ui"
 import { JSX } from "theme-ui/jsx-runtime"
 
 // See https://theme-ui.com/guides/mdx-layout-components
@@ -19,9 +19,8 @@ export default function Layout(
           maxWidth: 768,
           mx: "auto",
         }}
-      >
-        {props.children}
-      </main>
+        {...props}
+      ></main>
     </ThemeProvider>
   )
 }

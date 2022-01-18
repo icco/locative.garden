@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import { Head, Html, Main, NextScript } from "next/document"
 import { InitializeColorMode } from "theme-ui"
 
