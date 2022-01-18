@@ -12,20 +12,19 @@ const Theme = merge(typography, {
   },
 
   colors: {
-    text: Nord.nord0,
-    background: Nord.nord8,
-    primary: "#07c",
-    secondary: "#b0b",
+    text: Nord.nord3,
+    background: "#fff",
+    primary: Nord.nord4,
+    secondary: Nord.nord1,
     modes: {
       dark: {
         text: Nord.nord6,
         background: Nord.nord0,
-        primary: "#0cf",
-        secondary: "#faf",
+        primary: Nord.nord1,
+        secondary: Nord.nord4,
       },
     },
   },
-  radii: [0, 4],
 
   styles: {
     root: {
