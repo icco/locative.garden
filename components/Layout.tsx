@@ -11,5 +11,20 @@ export default function Layout(
     HTMLAttributes<HTMLDivElement> &
     SxProp
 ): JSX.Element {
-  return <ThemeProvider theme={Theme}>{props.children}</ThemeProvider>
+  return (
+    <ThemeProvider theme={Theme}>
+      <main
+        sx={{
+          border: "1px solid",
+          borderColor: "text",
+          padding: 3,
+          borderRadius: 1,
+          maxWidth: 768,
+          mx: "auto",
+        }}
+      >
+        {props.children}
+      </main>
+    </ThemeProvider>
+  )
 }
