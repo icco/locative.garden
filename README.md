@@ -1,3 +1,3 @@
 # locative.garden
 
-An inprogress book about location, technology and nature.
+An in-progress book about location, technology and nature.
