@@ -3,16 +3,17 @@ import Layout from "components/Layout"
 import type { AppProps } from "next/app"
 import Head from "next/head"
 
-export default function Locative({ Component, pageProps }): AppProps {
+export default function Locative({
+  Component,
+  pageProps,
+}: AppProps): JSX.Element {
   return (
-    <>
+    <Layout>
       <Head>
         <title>locative.garden</title>
       </Head>
-      <Layout>
-        <Header />
-        <Component {...pageProps} />
-      </Layout>
-    </>
+      <Header />
+      <Component {...pageProps} />
+    </Layout>
   )
 }
