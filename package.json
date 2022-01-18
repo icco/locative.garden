@@ -26,8 +26,7 @@
     "rehype-slug": "^5.0.1",
     "remark-gfm": "^3.0.1",
     "theme-ui": "^0.13.1",
-    "typography-theme-fairy-gates": "^0.16.19",
-    "typography-theme-us-web-design-standards": "^0.16.19"
+    "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",

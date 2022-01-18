@@ -1,9 +1,9 @@
 import { Nord } from "@icco/react-common"
 import { toTheme } from "@theme-ui/typography"
 import merge from "deepmerge"
-import usWeb from "typography-theme-us-web-design-standards"
+import oceanBeach from "typography-theme-ocean-beach"
 
-const typography = toTheme(usWeb)
+const typography = toTheme(oceanBeach)
 
 const Theme = merge(typography, {
   config: {
