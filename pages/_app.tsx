@@ -1,7 +1,7 @@
 import Header from "components/Header"
 import Layout from "components/Layout"
 import Theme from "components/Theme"
-import type { AppProps } from "next/app"
+import type { AppProps, NextWebVitalsMetric } from "next/app"
 import Head from "next/head"
 import { ThemeProvider } from "theme-ui"
 

@@ -50,6 +50,6 @@ const root = {
 }
 
 const Theme = merge(typography, root)
-console.log(Theme)
+// console.log(Theme)
 
 export default Theme
