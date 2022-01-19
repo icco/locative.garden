@@ -21,3 +21,16 @@ export default function Locative({
     </ThemeProvider>
   )
 }
+
+// Will be called once for every metric that has to be reported.
+export function reportWebVitals(metric: NextWebVitalsMetric) {
+  const body = JSON.stringify(metric)
+  const url = "https://reportd.natwelch.com/analytics/locative"
+
+  // Use `navigator.sendBeacon()` if available, falling back to `fetch()`.
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon(url, body)
+  } else {
+    fetch(url, { body, method: "POST", keepalive: true })
+  }
+}
