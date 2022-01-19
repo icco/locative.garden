@@ -8,7 +8,7 @@ const root = {
   config: {
     initialColorModeName: "light",
     useColorSchemeMediaQuery: true,
-    printColorModeName: "light",
+    printColorModeName: "print",
   },
 
   colors: {
@@ -25,14 +25,14 @@ const root = {
         secondary: Nord.nord4,
         link: Nord.nord9,
       },
+      print: {
+        background: "#fff",
+        text: "#000",
+        primary: Nord.nord1,
+        secondary: Nord.nord4,
+        link: Nord.nord10,
+      },
     },
-  },
-
-  fonts: {
-    "@media print": {
-      body: 'Georgia, "Times New Roman", Times, serif',
-      heading: 'Georgia, "Times New Roman", Times, serif',
-    }
   },
 
   styles: {
@@ -50,12 +50,8 @@ const root = {
   },
 
   "@media print": {
-    baseFontSize: "8pt",
     p: 0,
     width: "100%",
-    font: 'Georgia, "Times New Roman", Times, serif',
-    lineHeight: 1.3,
-    color: "#000",
   },
 }
 
