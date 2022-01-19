@@ -28,6 +28,13 @@ const root = {
     },
   },
 
+  fonts: {
+    "@media print": {
+      body: 'Georgia, "Times New Roman", Times, serif',
+      heading: 'Georgia, "Times New Roman", Times, serif',
+    }
+  },
+
   styles: {
     root: {
       color: "text",
@@ -43,11 +50,16 @@ const root = {
   },
 
   "@media print": {
-    fontSize: "10px",
+    baseFontSize: "8pt",
     p: 0,
+    width: "100%",
+    font: 'Georgia, "Times New Roman", Times, serif',
+    lineHeight: 1.3,
+    color: "#000",
   },
 }
 
 const theme = merge(typography, root)
+console.log(theme)
 
 export default theme

@@ -27,6 +27,7 @@ export default function Layout(
 
         "@media print": {
           maxWidth: "auto",
+          width: "100%",
         },
       }}
       {...props}
