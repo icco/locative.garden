@@ -8,6 +8,7 @@ const root = {
   config: {
     initialColorModeName: "light",
     useColorSchemeMediaQuery: true,
+    printColorModeName: "light",
   },
 
   colors: {

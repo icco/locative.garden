@@ -19,6 +19,9 @@ const ColorButton = ({ mode, ...props }) => (
         boxShadow: "0 0 0 3px",
         outline: "none",
       },
+      "@media print": {
+        display: "none",
+      },
     }}
   >
     <svg
