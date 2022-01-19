@@ -41,6 +41,10 @@ const root = {
       cursor: "pointer",
     },
   },
+
+  "@media print": {
+    fontSize: "12px",
+  },
 }
 
 const theme = merge(typography, root)
