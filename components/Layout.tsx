@@ -12,7 +12,6 @@ export default function Layout(
   return (
     <main
       sx={{
-        padding: 3,
         maxWidth: 768,
         mx: "auto",
 
@@ -24,6 +23,11 @@ export default function Layout(
             color: "secondary",
             textDecoration: "underline",
           },
+        },
+
+        "@media print": {
+          maxWidth: "auto",
+          width: "100%",
         },
       }}
       {...props}

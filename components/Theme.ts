@@ -8,6 +8,7 @@ const root = {
   config: {
     initialColorModeName: "light",
     useColorSchemeMediaQuery: true,
+    printColorModeName: "print",
   },
 
   colors: {
@@ -23,6 +24,13 @@ const root = {
         primary: Nord.nord1,
         secondary: Nord.nord4,
         link: Nord.nord9,
+      },
+      print: {
+        background: "#fff",
+        text: "#000",
+        primary: Nord.nord1,
+        secondary: Nord.nord4,
+        link: Nord.nord10,
       },
     },
   },
@@ -40,9 +48,13 @@ const root = {
       cursor: "pointer",
     },
   },
+
+  "@media print": {
+    p: 0,
+    width: "100%",
+  },
 }
 
 const theme = merge(typography, root)
-// console.log(Theme)
 
 export default theme
