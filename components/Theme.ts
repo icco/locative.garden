@@ -15,12 +15,14 @@ const root = {
     background: "#fff",
     primary: Nord.nord4,
     secondary: Nord.nord1,
+    link: Nord.nord10,
     modes: {
       dark: {
         text: Nord.nord6,
         background: Nord.nord0,
         primary: Nord.nord1,
         secondary: Nord.nord4,
+        link: Nord.nord9,
       },
     },
   },
@@ -30,15 +32,6 @@ const root = {
       color: "text",
       bg: "background",
       p: 4,
-    },
-    a: {
-      color: "primary",
-      textDecoration: "none",
-      ":link,:any-link,:visited": { color: "primary" },
-      ":focus,:active,:hover": {
-        color: "secondary",
-        textDecoration: "underline",
-      },
     },
   },
 
