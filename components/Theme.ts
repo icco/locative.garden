@@ -1,6 +1,6 @@
 import { Nord } from "@icco/react-common"
 import { toTheme } from "@theme-ui/typography"
-import merge from "deepmerge"
+import merge from "lodash.merge"
 import oceanBeach from "typography-theme-ocean-beach"
 
 const typography = toTheme(oceanBeach)
