@@ -4,8 +4,7 @@ import merge from "deepmerge"
 import oceanBeach from "typography-theme-ocean-beach"
 
 const typography = toTheme(oceanBeach)
-
-const Theme = merge(typography, {
+const root = {
   config: {
     initialColorModeName: "light",
     useColorSchemeMediaQuery: true,
@@ -48,6 +47,9 @@ const Theme = merge(typography, {
       cursor: "pointer",
     },
   },
-})
+}
+
+const Theme = merge(typography, root)
+console.log(Theme)
 
 export default Theme
