@@ -25,6 +25,11 @@ export default function Layout(
             textDecoration: "underline",
           },
         },
+
+      "@media print": {
+        padding: 1,
+        maxWidth: "auto",
+      },
       }}
       {...props}
     ></main>
