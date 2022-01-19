@@ -49,7 +49,7 @@ const root = {
   },
 }
 
-const Theme = merge(typography, root)
+const theme = merge(typography, root)
 // console.log(Theme)
 
-export default Theme
+export default theme

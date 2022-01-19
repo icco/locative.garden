@@ -1,6 +1,6 @@
 import Header from "components/Header"
 import Layout from "components/Layout"
-import Theme from "components/Theme"
+import theme from "components/Theme"
 import type { AppProps, NextWebVitalsMetric } from "next/app"
 import Head from "next/head"
 import { ThemeProvider } from "theme-ui"
@@ -10,7 +10,7 @@ export default function Locative({
   pageProps,
 }: AppProps): JSX.Element {
   return (
-    <ThemeProvider theme={Theme}>
+    <ThemeProvider theme={theme}>
       <Layout>
         <Head>
           <title>locative.garden</title>
