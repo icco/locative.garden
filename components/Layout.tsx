@@ -26,10 +26,10 @@ export default function Layout(
           },
         },
 
-      "@media print": {
-        padding: 1,
-        maxWidth: "auto",
-      },
+        "@media print": {
+          padding: 1,
+          maxWidth: "auto",
+        },
       }}
       {...props}
     ></main>
