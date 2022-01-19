@@ -43,7 +43,8 @@ const root = {
   },
 
   "@media print": {
-    fontSize: "12px",
+    fontSize: "10px",
+    p: 0,
   },
 }
 
