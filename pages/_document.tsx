@@ -3,7 +3,7 @@ import { InitializeColorMode } from "theme-ui"
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en-US">
       <Head />
       <body>
         <InitializeColorMode />

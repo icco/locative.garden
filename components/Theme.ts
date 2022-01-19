@@ -35,7 +35,8 @@ const Theme = merge(typography, {
     a: {
       color: "primary",
       textDecoration: "none",
-      ":hover": {
+      ":link,:any-link,:visited": { color: "primary" },
+      ":focus,:active,:hover": {
         color: "secondary",
         textDecoration: "underline",
       },
