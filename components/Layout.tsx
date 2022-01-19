@@ -15,6 +15,16 @@ export default function Layout(
         padding: 3,
         maxWidth: 768,
         mx: "auto",
+
+        a: {
+          color: "link",
+          textDecoration: "none",
+          ":link,:any-link,:visited": { color: "link" },
+          ":focus,:active,:hover": {
+            color: "secondary",
+            textDecoration: "underline",
+          },
+        },
       }}
       {...props}
     ></main>
