@@ -1,3 +1,5 @@
+// @ts-check
+
 import withMDX from "@next/mdx"
 import slug from "rehype-slug"
 import gfm from "remark-gfm"
