@@ -53,6 +53,7 @@ const root = {
   },
 
   "@media print": {
+    fontSize: 1,
     p: 0,
     width: "100%",
   },
