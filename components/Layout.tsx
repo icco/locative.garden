@@ -10,10 +10,25 @@ export default function Layout(
     SxProp
 ): JSX.Element {
   return (
+<div
+  sx={{
+    display: 'flex',
+    flexDirection: 'column',
+    // set this to `minHeight: '100vh'` for full viewport height
+    minHeight: 256,
+  }}>
+  <header
+    sx={{
+      width: '100%',
+    }}>
+    Header
+  </header>
     <main
       sx={{
         maxWidth: 768,
         mx: "auto",
+      width: '100%',
+      flex: '1 1 auto',
 
         a: {
           color: "link",
@@ -32,5 +47,12 @@ export default function Layout(
       }}
       {...props}
     ></main>
+  <footer
+    sx={{
+      width: '100%',
+    }}>
+    Footer
+  </footer>
+</div>
   )
 }
