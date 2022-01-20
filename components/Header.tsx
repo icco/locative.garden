@@ -1,5 +1,4 @@
-import Link from "next/link"
-import { useColorMode } from "theme-ui"
+import { Link, useColorMode } from "theme-ui"
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ColorButton = ({ mode, ...props }) => (
@@ -58,12 +57,12 @@ const Header = () => {
         href="/"
         sx={{
           variant: "styles.navlink",
-          p: 2,
-          color: "link",
+          p: 0,
+          color: "text",
           textDecoration: "none",
         }}
       >
-        l.g
+        Home
       </Link>
       <div sx={{ mx: "auto" }} />
       <ColorButton
