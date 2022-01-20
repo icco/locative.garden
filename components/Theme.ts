@@ -39,7 +39,10 @@ const root = {
     root: {
       color: "text",
       bg: "background",
-      p: 4,
+      p: [3, 4],
+    },
+    footer: {
+      fontSize: 1,
     },
   },
 

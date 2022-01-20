@@ -37,7 +37,7 @@ export default function Layout(
       <main
         sx={{
           maxWidth: 768,
-          mx: "auto",
+          mx: [0, "auto"],
           width: "100%",
           flex: "1 1 auto",
 
@@ -63,7 +63,8 @@ export default function Layout(
           display: "flex",
           flexWrap: "wrap",
           alignItems: "center",
-          p: 2,
+          p: [0, 2],
+          mt: 5,
           variant: "styles.footer",
           width: "100%",
 
@@ -73,7 +74,7 @@ export default function Layout(
         }}
       >
         <div sx={{ mx: "auto" }} />
-        <div sx={{ p: 2 }}>&copy; 2022 Nathaniel &quot;Nat&quot; Welch</div>
+        <div sx={{ py: 2 }}>&copy; 2022 Nathaniel &quot;Nat&quot; Welch</div>
       </footer>
     </div>
   )
