@@ -19,9 +19,6 @@ const ColorButton = ({ mode, ...props }) => (
         boxShadow: "0 0 0 3px",
         outline: "none",
       },
-      "@media print": {
-        display: "none",
-      },
     }}
   >
     <svg
@@ -55,12 +52,13 @@ const ColorButton = ({ mode, ...props }) => (
 const Header = () => {
   const [colorMode, setColorMode] = useColorMode()
   return (
-    <header>
+    <>
+      <div sx={{ mx: "auto" }} />
       <ColorButton
         mode={colorMode}
         onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
       />
-    </header>
+    </>
   )
 }
 
