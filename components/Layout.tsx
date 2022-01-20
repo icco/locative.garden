@@ -21,7 +21,12 @@ export default function Layout(
     >
       <header
         sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          alignItems: "center",
+          variant: "styles.footer",
           width: "100%",
+
           "@media print": {
             display: "none",
           },
