@@ -2,6 +2,8 @@ import { ClassAttributes, HTMLAttributes } from "react"
 import { SxProp } from "theme-ui"
 import { JSX } from "theme-ui/jsx-runtime"
 
+import Header from "./Header"
+
 // See https://theme-ui.com/guides/mdx-layout-components
 export default function Layout(
   props: JSX.IntrinsicAttributes &
@@ -10,27 +12,69 @@ export default function Layout(
     SxProp
 ): JSX.Element {
   return (
-    <main
+    <div
       sx={{
-        maxWidth: 768,
-        mx: "auto",
-
-        a: {
-          color: "link",
-          textDecoration: "none",
-          ":link,:any-link,:visited": { color: "link" },
-          ":focus,:active,:hover": {
-            color: "secondary",
-            textDecoration: "underline",
-          },
-        },
-
-        "@media print": {
-          maxWidth: "auto",
-          width: "100%",
-        },
+        display: "flex",
+        flexDirection: "column",
+        minHeight: 256,
       }}
-      {...props}
-    ></main>
+    >
+      <header
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          alignItems: "center",
+          variant: "styles.footer",
+          width: "100%",
+
+          "@media print": {
+            display: "none",
+          },
+        }}
+      >
+        <Header />
+      </header>
+      <main
+        sx={{
+          maxWidth: 768,
+          mx: "auto",
+          width: "100%",
+          flex: "1 1 auto",
+
+          a: {
+            color: "link",
+            textDecoration: "none",
+            ":link,:any-link,:visited": { color: "link" },
+            ":focus,:active,:hover": {
+              color: "secondary",
+              textDecoration: "underline",
+            },
+          },
+
+          "@media print": {
+            maxWidth: "auto",
+            width: "100%",
+          },
+        }}
+        {...props}
+      ></main>
+      <footer
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          alignItems: "center",
+          p: 2,
+          variant: "styles.footer",
+          width: "100%",
+
+          "@media print": {
+            display: "none",
+          },
+        }}
+      >
+        <div sx={{ mx: "auto" }} />
+        <div sx={{ p: 2 }}>&copy; 2022 Nathaniel &quot;Nat&quot; Welch</div>
+      </footer>
+    </div>
   )
 }

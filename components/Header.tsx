@@ -1,4 +1,4 @@
-import { useColorMode } from "theme-ui"
+import { Link, useColorMode } from "theme-ui"
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ColorButton = ({ mode, ...props }) => (
@@ -18,9 +18,6 @@ const ColorButton = ({ mode, ...props }) => (
         color: "primary",
         boxShadow: "0 0 0 3px",
         outline: "none",
-      },
-      "@media print": {
-        display: "none",
       },
     }}
   >
@@ -55,12 +52,24 @@ const ColorButton = ({ mode, ...props }) => (
 const Header = () => {
   const [colorMode, setColorMode] = useColorMode()
   return (
-    <header>
+    <>
+      <Link
+        href="/"
+        sx={{
+          variant: "styles.navlink",
+          p: 0,
+          color: "text",
+          textDecoration: "none",
+        }}
+      >
+        Home
+      </Link>
+      <div sx={{ mx: "auto" }} />
       <ColorButton
         mode={colorMode}
         onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
       />
-    </header>
+    </>
   )
 }
 
