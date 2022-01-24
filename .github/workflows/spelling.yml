@@ -1,3 +1,4 @@
+name: Check Spelling
 on:
   push:
     branches: [ main ]
@@ -20,4 +21,5 @@ jobs:
       uses: check-spelling/check-spelling@main
       with:
         experimental_apply_changes_via_bot: 1
-        only: \.mdx?$
+        config:
+          only: \.mdx?$
