@@ -17,5 +17,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Check spelling
-      uses: check-spelling/check-spelling@v0.0.20-alpha4
-
+      uses: check-spelling/check-spelling@main
+      with:
+        experimental_apply_changes_via_bot: 1
