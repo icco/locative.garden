@@ -8,6 +8,7 @@ const root = {
   config: {
     initialColorModeName: "light",
     useColorSchemeMediaQuery: true,
+    printColorModeName: "print",
   },
 
   colors: {
@@ -15,12 +16,21 @@ const root = {
     background: "#fff",
     primary: Nord.nord4,
     secondary: Nord.nord1,
+    link: Nord.nord10,
     modes: {
       dark: {
         text: Nord.nord6,
         background: Nord.nord0,
         primary: Nord.nord1,
         secondary: Nord.nord4,
+        link: Nord.nord9,
+      },
+      print: {
+        background: "#fff",
+        text: "#000",
+        primary: Nord.nord1,
+        secondary: Nord.nord4,
+        link: Nord.nord10,
       },
     },
   },
@@ -29,16 +39,10 @@ const root = {
     root: {
       color: "text",
       bg: "background",
-      p: 4,
+      p: [3, 4],
     },
-    a: {
-      color: "primary",
-      textDecoration: "none",
-      ":link,:any-link,:visited": { color: "primary" },
-      ":focus,:active,:hover": {
-        color: "secondary",
-        textDecoration: "underline",
-      },
+    footer: {
+      fontSize: 1,
     },
   },
 
@@ -47,9 +51,14 @@ const root = {
       cursor: "pointer",
     },
   },
+
+  "@media print": {
+    fontSize: 1,
+    p: 0,
+    width: "100%",
+  },
 }
 
 const theme = merge(typography, root)
-// console.log(Theme)
 
 export default theme

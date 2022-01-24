@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /stories/
+
+User-agent: *
+Allow: /
+
+# TODO: Create sitemap with https://github.com/iamvishnusankar/next-sitemap

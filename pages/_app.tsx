@@ -1,4 +1,3 @@
-import Header from "components/Header"
 import Layout from "components/Layout"
 import theme from "components/Theme"
 import type { AppProps, NextWebVitalsMetric } from "next/app"
@@ -15,7 +14,6 @@ export default function Locative({
         <Head>
           <title>locative.garden</title>
         </Head>
-        <Header />
         <Component {...pageProps} />
       </Layout>
     </ThemeProvider>
