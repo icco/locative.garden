@@ -423,14 +423,14 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@icco/react-common@>= 2022.1.18-3":
-  version "2022.1.18-3"
-  resolved "https://registry.yarnpkg.com/@icco/react-common/-/react-common-2022.1.18-3.tgz#2152bf7d03b88436718fafef16ed4af0d9153e87"
-  integrity sha512-oIDQ7Y+lxLvbyujq9x5QikaNW7WzIO8uIABLwXL9POZdk+NVD/81TdK2avBa/mEJB9EBNCTs4Ad9LFvuZcatcg==
+"@icco/react-common@^2022.2.11-4":
+  version "2022.2.11-4"
+  resolved "https://registry.yarnpkg.com/@icco/react-common/-/react-common-2022.2.11-4.tgz#9f9c4b4392180b370bb936707e50e7c9f486fa6d"
+  integrity sha512-EZ7VRrYDSEB6DLruhnsiSUEFIqIwox/g5nizKaj4OtU8G19DX8JnPjtrk/KfJVpxGeJjOTPD11V4ARby78RFDw==
   dependencies:
     prop-types "^15.7"
     react-loading "^2.0"
-    vivus "^0.4.5"
+    vivus "^0.4.6"
     webpack "^5.0.0"
 
 "@jridgewell/resolve-uri@^3.0.3":
@@ -4466,7 +4466,7 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vivus@^0.4.5:
+vivus@^0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/vivus/-/vivus-0.4.6.tgz#60661b43d08aaa70efc1854dfd2f1583f2066608"
   integrity sha512-q6cDPTGqw/bq9sKF2h2T6GJ9PlwAFncHq7MdaK95WTSyd/7gz//UHTZbJ3B+r8f7AhcISPTC3sv9+u65BmmFbw==
