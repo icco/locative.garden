@@ -1,5 +1,5 @@
-import * as d3 from 'd3'
-import { Component } from "react"
+import d3 from "d3"
+import { useEffect } from "react"
 
 // Built following https://medium.com/codesphere-cloud/creating-data-visualizations-with-d3-and-reactjs-c288d7890390
 function Cities() {
@@ -11,7 +11,8 @@ function Cities() {
     const y = d3.scale.linear().rangeRound([0, height]).domain([90, -90])
     const yAxis = d3.svg.axis().scale(y).ticks(19).orient("left")
 
-    const svg = d3.select('#cities')
+    const svg = d3
+      .select("#cities")
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -74,11 +75,11 @@ function Cities() {
           .attr("dy", "1em")
           .style("text-anchor", "end")
           .text("Latitude")
-  }
-
-    return (
-      <div id="cities"></div>
+      }
     )
+  })
+
+  return <div id="cities"></div>
 }
 
 export { Cities }
