@@ -8,8 +8,8 @@ function Cities() {
     const width = 400 - margin.left - margin.right
     const height = 1400 - margin.top - margin.bottom
 
-    const y = d3.scale.linear().rangeRound([0, height]).domain([90, -90])
-    const yAxis = d3.svg.axis().scale(y).ticks(19).orient("left")
+    const y = d3.scaleLinear().rangeRound([0, height]).domain([90, -90])
+    const yAxis = d3.axisLeft(y).scale(y).ticks(19)
 
     const svg = d3
       .select("#cities-component-d3")
@@ -22,20 +22,14 @@ function Cities() {
     // For data:
     // https://en.wikipedia.org/wiki/List_of_cities_by_latitude
     // http://transition.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
-    d3.json(
-      "/cities.json",
-      function (
-        error,
+    d3.json("/cities.json").then(
+      (
         data: {
           lat: number
           lon: number
           name: string
         }[]
-      ): void {
-        if (error) {
-          console.error(error)
-        }
-
+      ): void => {
         console.log(data)
 
         // Add dots
