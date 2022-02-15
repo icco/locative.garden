@@ -12,7 +12,7 @@ function Cities() {
     const yAxis = d3.svg.axis().scale(y).ticks(19).orient("left")
 
     const svg = d3
-      .select("#cities")
+      .select("#cities-component-d3")
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -79,7 +79,7 @@ function Cities() {
     )
   })
 
-  return <div id="cities"></div>
+  return <div id="cities-component-d3"></div>
 }
 
 export { Cities }
