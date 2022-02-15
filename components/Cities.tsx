@@ -1,14 +1,9 @@
-import d3 from "d3"
+import * as d3 from 'd3'
 import { Component } from "react"
-import rd3 from "react-d3-library"
 
-class Cities extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { d3: "" }
-  }
-
-  doSomething() {
+// Built following https://medium.com/codesphere-cloud/creating-data-visualizations-with-d3-and-reactjs-c288d7890390
+function Cities() {
+  useEffect(() => {
     const margin = { top: 20, right: 100, bottom: 20, left: 100 }
     const width = 400 - margin.left - margin.right
     const height = 1400 - margin.top - margin.bottom
@@ -16,10 +11,7 @@ class Cities extends Component {
     const y = d3.scale.linear().rangeRound([0, height]).domain([90, -90])
     const yAxis = d3.svg.axis().scale(y).ticks(19).orient("left")
 
-    const node = document.createElement("div")
-
-    const svg = d3
-      .select(node)
+    const svg = d3.select('#cities')
       .append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
@@ -82,21 +74,11 @@ class Cities extends Component {
           .attr("dy", "1em")
           .style("text-anchor", "end")
           .text("Latitude")
-      }
-    )
   }
 
-  componentDidMount() {
-    this.setState({ d3: this.doSomething() })
-  }
-
-  render() {
     return (
-      <div>
-        <rd3.Component data={this.state.d3} />
-      </div>
+      <div id="cities"></div>
     )
-  }
 }
 
 export { Cities }
