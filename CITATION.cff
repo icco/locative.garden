@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Welch"
+  given-names: "Nat"
+  orcid: "https://orcid.org/0000-0002-2013-700X"
+title: "locative.garden"
+date-released: 2022-06-12
+url: "https://locative.garden"

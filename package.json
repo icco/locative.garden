@@ -9,6 +9,7 @@
     "build": "next build",
     "dev": "yarn lint && next dev -p 8080",
     "lint": "next lint --fix",
+    "postbuild": "next-sitemap",
     "start": "next"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@theme-ui/typography": "^0.13.1",
     "lodash.merge": "^4.6.2",
     "next": "^12.0.7",
+    "next-sitemap": "^2.1.14",
     "react": "^17.0.2",
     "react-d3-library": "git+https://github.com/koga73/react-d3-library.git",
     "react-dom": "^17.0.2",

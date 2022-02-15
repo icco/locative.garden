@@ -1,7 +1,10 @@
-User-agent: *
-Disallow: /stories/
-
+# *
 User-agent: *
 Allow: /
 
-# TODO: Create sitemap with https://github.com/iamvishnusankar/next-sitemap
+# Host
+Host: https://locative.garden
+
+# Sitemaps
+Sitemap: https://locative.garden/sitemap.xml
+Sitemap: https://locative.garden/sitemap-0.xml
