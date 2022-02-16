@@ -1,5 +1,5 @@
 import * as d3 from "d3"
-import { useEffect, useMemo } from "react"
+import { useEffect } from "react"
 
 // References:
 // - https://wattenberger.com/blog/react-and-d3
@@ -46,6 +46,8 @@ function Cities() {
           .data(data)
           .enter()
           .append("circle")
+          .style("stroke", "currentColor")
+          .style("fill", "currentColor")
           .attr("cx", 0)
           .attr("cy", function (d) {
             return y(d.lat)
@@ -58,6 +60,7 @@ function Cities() {
           .data(data)
           .enter()
           .append("text")
+          .style("fill", "currentColor")
           .text(function (d) {
             return d.name
           })
