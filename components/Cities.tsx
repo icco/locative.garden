@@ -7,6 +7,7 @@ import { useEffect, useMemo } from "react"
 // - https://medium.com/codesphere-cloud/creating-data-visualizations-with-d3-and-reactjs-c288d7890390
 // - https://observablehq.com/@ben-tanen/a-tutorial-to-using-d3-force-from-someone-who-just-learned-ho#link_sect
 // - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+// - https://observablehq.com/@d3/beeswarm
 //
 // Data:
 // - https://en.wikipedia.org/wiki/List_of_cities_by_latitude
