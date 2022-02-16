@@ -45,19 +45,67 @@ function Cities() {
           .attr("r", 5)
 
         // Create labels
+        //svg
+        //  .selectAll("text")
+        //  .data(data)
+        //  .enter()
+        //  .append("text")
+        //  .text(function (d) {
+        //    return d.name
+        //  })
+        //  .attr("x", 10)
+        //  .attr("y", function (d) {
+        //    return y(d.lat)
+        //  })
+        //  .attr("transform", "translate(5,5)")
+
+        // Labels from
+        // https://observablehq.com/@ben-tanen/a-tutorial-to-using-d3-force-from-someone-who-just-learned-ho#link_sect
+        const nodes = data.map((d) => Object.create(d))
+        const sim = d3
+          .forceSimulation(nodes)
+          .force("charge", d3.forceManyBody().strength(-2))
+          .force(
+            "y",
+            d3.forceY().y((d) => d.y)
+          )
+
         svg
-          .selectAll("text")
-          .data(data)
-          .enter()
-          .append("text")
-          .text(function (d) {
-            return d.name
+          .selectAll(".node")
+          .data(nodes)
+          .join((enter) => {
+            return enter
+              .append("line")
+              .attr("x1", function (d) {
+                return 2
+              })
+              .attr("y1", function (d) {
+                return y(d.lat)
+              })
+              .attr("x2", function (d) {
+                return 10
+              })
+              .attr("y2", function (d) {
+                return y(d.lat)
+              })
+              .attr("stroke-width", 0.6)
+              .attr("stroke", "gray")
           })
-          .attr("x", 10)
-          .attr("y", function (d) {
-            return y(d.lat)
+          .join((enter) => {
+            return enter
+              .append("text")
+              .text(function (d) {
+                return d.name
+              })
+              .attr("x", 10)
+              .attr("y", function (d) {
+                return y(d.lat)
+              })
           })
-          .attr("transform", "translate(5,5)")
+
+        sim.on("tick", () => {
+          // ... specify how we should move nodes/edges given new positional data
+        })
 
         svg
           .append("g")
