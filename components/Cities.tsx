@@ -12,51 +12,6 @@ import { useEffect, useMemo } from "react"
 // Data:
 // - https://en.wikipedia.org/wiki/List_of_cities_by_latitude
 // - http://transition.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
-
-const Axis = ({ domain = [0, 100], range = [10, 290] }) => {
-  const ticks = useMemo(() => {
-    const yScale = d3.scaleLinear().domain(domain).range(range)
-
-    const width = range[1] - range[0]
-    const pixelsPerTick = 30
-    const numberOfTicksTarget = Math.max(1, Math.floor(width / pixelsPerTick))
-
-    return yScale.ticks(numberOfTicksTarget).map((value) => ({
-      value,
-      yOffset: yScale(value),
-    }))
-  }, [domain, range])
-
-  // M x y : start at x1, y1
-  // h -6  : draw horizantal line to x1-6
-  // v y2  : draw vertical line to y2
-  // h x2  : draw horizantal line to x2
-  return (
-    <svg>
-      <path
-        d={["M", 6, range[0], "h", -6, "v", range[1], "h", 6].join(" ")}
-        fill="none"
-        stroke="currentColor"
-      />
-      {ticks.map(({ value, yOffset }) => (
-        <g key={value} transform={`translate(0, ${yOffset})`}>
-          <line x2="6" stroke="currentColor" />
-          <text
-            key={value}
-            style={{
-              fontSize: "10px",
-              textAnchor: "middle",
-              transform: "translateX(20px)",
-            }}
-          >
-            {value}
-          </text>
-        </g>
-      ))}
-    </svg>
-  )
-}
-
 function Cities() {
   useEffect(() => {
     const margin = { top: 20, right: 100, bottom: 20, left: 100 }
@@ -129,7 +84,6 @@ function Cities() {
 
   return (
     <>
-      <Axis domain={[-90, 90]} range={[10, 1440]} />
       <div id="cities-component-d3"></div>
     </>
   )
