@@ -1,7 +1,61 @@
 import * as d3 from "d3"
-import { useEffect } from "react"
+import { useEffect, useMemo } from "react"
 
-// Built following https://medium.com/codesphere-cloud/creating-data-visualizations-with-d3-and-reactjs-c288d7890390
+// References:
+// - https://wattenberger.com/blog/react-and-d3
+// - https://wattenberger.com/blog/d3-force
+// - https://medium.com/codesphere-cloud/creating-data-visualizations-with-d3-and-reactjs-c288d7890390
+// - https://observablehq.com/@ben-tanen/a-tutorial-to-using-d3-force-from-someone-who-just-learned-ho#link_sect
+// - https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
+//
+// Data:
+// - https://en.wikipedia.org/wiki/List_of_cities_by_latitude
+// - http://transition.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
+
+const Axis = ({ domain = [0, 100], range = [10, 290] }) => {
+  const ticks = useMemo(() => {
+    const yScale = d3.scaleLinear().domain(domain).range(range)
+
+    const width = range[1] - range[0]
+    const pixelsPerTick = 30
+    const numberOfTicksTarget = Math.max(1, Math.floor(width / pixelsPerTick))
+
+    return yScale.ticks(numberOfTicksTarget).map((value) => ({
+      value,
+      yOffset: yScale(value),
+    }))
+  }, [domain, range])
+
+  // M x y : start at x1, y1
+  // h -6  : draw horizantal line to x1-6
+  // v y2  : draw vertical line to y2
+  // h x2  : draw horizantal line to x2
+  return (
+    <svg>
+      <path
+        d={["M", 6, range[0], "h", -6, "v", range[1], "h", 6].join(" ")}
+        fill="none"
+        stroke="currentColor"
+      />
+      {ticks.map(({ value, yOffset }) => (
+        <g key={value} transform={`translate(0, ${yOffset})`}>
+          <line x2="6" stroke="currentColor" />
+          <text
+            key={value}
+            style={{
+              fontSize: "10px",
+              textAnchor: "middle",
+              transform: "translateX(20px)",
+            }}
+          >
+            {value}
+          </text>
+        </g>
+      ))}
+    </svg>
+  )
+}
+
 function Cities() {
   useEffect(() => {
     const margin = { top: 20, right: 100, bottom: 20, left: 100 }
@@ -22,8 +76,6 @@ function Cities() {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
     // For data:
-    // https://en.wikipedia.org/wiki/List_of_cities_by_latitude
-    // http://transition.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
     d3.json("/cities.json").then(
       (
         data: {
@@ -45,68 +97,21 @@ function Cities() {
           .attr("r", 5)
 
         // Create labels
-        //svg
-        //  .selectAll("text")
-        //  .data(data)
-        //  .enter()
-        //  .append("text")
-        //  .text(function (d) {
-        //    return d.name
-        //  })
-        //  .attr("x", 10)
-        //  .attr("y", function (d) {
-        //    return y(d.lat)
-        //  })
-        //  .attr("transform", "translate(5,5)")
-
-        // Labels from
-        // https://observablehq.com/@ben-tanen/a-tutorial-to-using-d3-force-from-someone-who-just-learned-ho#link_sect
-        const nodes = data.map((d) => Object.create(d))
-        const sim = d3
-          .forceSimulation(nodes)
-          .force("charge", d3.forceManyBody().strength(-2))
-          .force(
-            "y",
-            d3.forceY().y((d) => d.y)
-          )
-
         svg
-          .selectAll(".node")
-          .data(nodes)
-          .join((enter) => {
-            return enter
-              .append("line")
-              .attr("x1", function (d) {
-                return 2
-              })
-              .attr("y1", function (d) {
-                return y(d.lat)
-              })
-              .attr("x2", function (d) {
-                return 10
-              })
-              .attr("y2", function (d) {
-                return y(d.lat)
-              })
-              .attr("stroke-width", 0.6)
-              .attr("stroke", "gray")
+          .selectAll("text")
+          .data(data)
+          .enter()
+          .append("text")
+          .text(function (d) {
+            return d.name
           })
-          .join((enter) => {
-            return enter
-              .append("text")
-              .text(function (d) {
-                return d.name
-              })
-              .attr("x", 10)
-              .attr("y", function (d) {
-                return y(d.lat)
-              })
+          .attr("x", 10)
+          .attr("y", function (d) {
+            return y(d.lat)
           })
+          .attr("transform", "translate(5,5)")
 
-        sim.on("tick", () => {
-          // ... specify how we should move nodes/edges given new positional data
-        })
-
+        // Draw Axis
         svg
           .append("g")
           .attr("class", "y axis")
@@ -121,7 +126,12 @@ function Cities() {
     )
   })
 
-  return <div id="cities-component-d3"></div>
+  return (
+    <>
+      <Axis domain={[-90, 90]} range={[10, 1440]} />
+      <div id="cities-component-d3"></div>
+    </>
+  )
 }
 
 export { Cities }
