@@ -1,4 +1,4 @@
-import d3 from "d3"
+import * as d3 from "d3"
 import { useEffect } from "react"
 
 // Built following https://medium.com/codesphere-cloud/creating-data-visualizations-with-d3-and-reactjs-c288d7890390
@@ -8,7 +8,9 @@ function Cities() {
     const width = 400 - margin.left - margin.right
     const height = 1400 - margin.top - margin.bottom
 
-    const y = d3.scaleLinear().rangeRound([0, height]).domain([90, -90])
+    const range = [0, height]
+    const domain = [90, -90]
+    const y = d3.scaleLinear(domain, range)
     const yAxis = d3.axisLeft(y).scale(y).ticks(19)
 
     const svg = d3
@@ -30,8 +32,6 @@ function Cities() {
           name: string
         }[]
       ): void => {
-        console.log(data)
-
         // Add dots
         svg
           .selectAll("circle")
