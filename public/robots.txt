@@ -7,4 +7,3 @@ Host: https://locative.garden
 
 # Sitemaps
 Sitemap: https://locative.garden/sitemap.xml
-Sitemap: https://locative.garden/sitemap-0.xml
