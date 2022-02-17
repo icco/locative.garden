@@ -17,6 +17,16 @@ export default function Layout(
         display: "flex",
         flexDirection: "column",
         minHeight: 256,
+
+        a: {
+          color: "link",
+          textDecoration: "none",
+          ":link,:any-link,:visited": { color: "link" },
+          ":focus,:active,:hover": {
+            color: "secondary",
+            textDecoration: "underline",
+          },
+        },
       }}
     >
       <header
@@ -41,16 +51,6 @@ export default function Layout(
           width: "100%",
           flex: "1 1 auto",
 
-          a: {
-            color: "link",
-            textDecoration: "none",
-            ":link,:any-link,:visited": { color: "link" },
-            ":focus,:active,:hover": {
-              color: "secondary",
-              textDecoration: "underline",
-            },
-          },
-
           "@media print": {
             maxWidth: "auto",
             width: "100%",
@@ -74,7 +74,10 @@ export default function Layout(
         }}
       >
         <div sx={{ mx: "auto" }} />
-        <div sx={{ py: 2 }}>&copy; 2022 Nathaniel &quot;Nat&quot; Welch</div>
+        <div sx={{ py: 2 }}>
+          &copy; 2022{" "}
+          <a href="https://natwelch.com">Nathaniel &quot;Nat&quot; Welch</a>
+        </div>
       </footer>
     </div>
   )
