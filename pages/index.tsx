@@ -2,7 +2,6 @@ import fs from "fs"
 import { Glob } from "glob"
 import matter from "gray-matter"
 import Link from "next/link"
-import { Key, ReactChild, ReactFragment, ReactPortal } from "react"
 
 function Index({ posts }) {
   return (
