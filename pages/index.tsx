@@ -2,6 +2,7 @@ import fs from "fs"
 import { Glob } from "glob"
 import matter from "gray-matter"
 import Link from "next/link"
+import { Key, ReactChild, ReactFragment, ReactPortal } from "react"
 
 function Index({ posts }) {
   return (
@@ -21,11 +22,13 @@ function Index({ posts }) {
       <h2 id="updates">Updates</h2>
 
       <ul>
-        {posts.map((post) => (
+        {posts.map((post: { filePath: string; data: { title: string } }) => (
           <li key={post.filePath}>
             <Link
-              as={`/posts/${post.filePath.replace(/\.mdx?$/, "")}`}
-              href={`/posts/[slug]`}
+              as={`/updates/${post.filePath
+                .replace(/\.mdx?$/, "")
+                .replace("./pages/updates/", "")}`}
+              href={`/updates/[slug]`}
             >
               <a>{post.data.title}</a>
             </Link>
@@ -37,11 +40,9 @@ function Index({ posts }) {
 }
 
 export async function getStaticProps() {
-  const updateDir = "./updates"
-  const gb = new Glob(updateDir + "/*.mdx")
-
+  const updateDir = "./pages/updates"
+  const gb = new Glob(updateDir + "/*.mdx", { sync: true })
   const posts = gb.found.map((filePath) => {
-    console.log(filePath)
     const source = fs.readFileSync(filePath)
     const { content, data } = matter(source)
 
