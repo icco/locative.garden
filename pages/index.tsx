@@ -21,15 +21,10 @@ function Index({ posts }) {
       <h2 id="updates">Updates</h2>
 
       <ul>
-        {posts.map((post: { filePath: string; data: { title: string } }) => (
+        {posts.map((post: { filePath: string; slug: string }) => (
           <li key={post.filePath}>
-            <Link
-              as={`/updates/${post.filePath
-                .replace(/\.mdx?$/, "")
-                .replace("./pages/updates/", "")}`}
-              href={`/updates/[slug]`}
-            >
-              <a>{post.data.title}</a>
+            <Link as={`/updates/${post.slug}`} href={`/updates/[slug]`}>
+              <a>{post.slug}</a>
             </Link>
           </li>
         ))}
@@ -42,13 +37,9 @@ export async function getStaticProps() {
   const updateDir = "./pages/updates"
   const gb = new Glob(updateDir + "/*.mdx", { sync: true })
   const posts = gb.found.map((filePath) => {
-    const source = fs.readFileSync(filePath)
-    const { content, data } = matter(source)
-
     return {
-      content,
-      data,
       filePath,
+      slug: filePath.replace(/\.mdx?$/, "").replace("./pages/updates/", ""),
     }
   })
 
