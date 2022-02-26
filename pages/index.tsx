@@ -1,6 +1,4 @@
-import fs from "fs"
 import { Glob } from "glob"
-import matter from "gray-matter"
 import Link from "next/link"
 
 function Index({ posts }) {
