@@ -1,4 +1,4 @@
-import { Button, Link, useColorMode } from "theme-ui"
+import { Box, Button, Link, useColorMode } from "theme-ui"
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ColorButton = ({ mode, ...props }) => (
@@ -26,9 +26,7 @@ const ColorButton = ({ mode, ...props }) => (
       width="24"
       height="24"
       fill="currentcolor"
-      sx={{
-        display: "block",
-      }}
+      style={{ display: "block" }}
     >
       <circle
         cx="16"
@@ -64,7 +62,7 @@ const Header = () => {
       >
         Home
       </Link>
-      <div sx={{ mx: "auto" }} />
+      <Box sx={{ mx: "auto" }} />
       <ColorButton
         mode={colorMode}
         onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
