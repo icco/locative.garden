@@ -1,6 +1,5 @@
 import { Button, Link, useColorMode } from "theme-ui"
 
-/** @jsxImportSource theme-ui */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ColorButton = ({ mode, ...props }) => (
   <Button

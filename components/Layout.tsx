@@ -4,7 +4,6 @@ import { JSX } from "theme-ui/jsx-runtime"
 
 import Header from "./Header"
 
-// See https://theme-ui.com/guides/mdx-layout-components
 /** @jsxImportSource theme-ui */
 export default function Layout(
   props: JSX.IntrinsicAttributes &
