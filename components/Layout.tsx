@@ -1,4 +1,4 @@
-import { Box, Box } from "theme-ui"
+import { Box } from "theme-ui"
 import { JSX } from "theme-ui/jsx-runtime"
 
 import Header from "./Header"
