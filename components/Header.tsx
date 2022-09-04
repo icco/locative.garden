@@ -1,9 +1,9 @@
-import { Link, useColorMode } from "theme-ui"
+import { Button, Link, useColorMode } from "theme-ui"
 
 /** @jsxImportSource theme-ui */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ColorButton = ({ mode, ...props }) => (
-  <button
+  <Button
     {...props}
     title="Cycle Color Mode"
     sx={{
@@ -47,7 +47,7 @@ const ColorButton = ({ mode, ...props }) => (
         `}
       />
     </svg>
-  </button>
+  </Button>
 )
 
 const Header = () => {
