@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
-    "@icco/react-common": "^2022.11.16-2",
+    "@icco/react-common": "^2022.12.27-1",
     "@mdx-js/loader": "^2.0.0",
     "@mdx-js/react": "^2.0.0",
     "@next/mdx": "^13.0.0",
