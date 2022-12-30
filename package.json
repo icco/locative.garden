@@ -17,6 +17,7 @@
     "@icco/react-common": "^2022.12.27-1",
     "@mdx-js/loader": "^2.0.0",
     "@mdx-js/react": "^2.0.0",
+    "@next/env": "^13.1.1",
     "@next/mdx": "^13.0.0",
     "@theme-ui/typography": "^0.15.0",
     "d3": "^7.3.0",
