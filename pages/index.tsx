@@ -1,4 +1,4 @@
-import { globSync } from 'glob'
+import { globSync } from "glob"
 import Link from "next/link"
 
 function Index({ posts }) {
