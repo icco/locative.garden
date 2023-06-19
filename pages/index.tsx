@@ -1,4 +1,4 @@
-import { Glob } from "glob"
+import { globSync } from 'glob'
 import Link from "next/link"
 
 function Index({ posts }) {
@@ -33,8 +33,7 @@ function Index({ posts }) {
 
 export async function getStaticProps() {
   const updateDir = "./pages/updates"
-  const gb = new Glob(updateDir + "/*.mdx", { sync: true })
-  const posts = gb.found.map((filePath) => {
+  const posts = globSync(updateDir + "/*.mdx").map((filePath) => {
     return {
       filePath,
       slug: filePath.replace(/\.mdx?$/, "").replace("./pages/updates/", ""),
