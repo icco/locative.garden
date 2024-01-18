@@ -1,0 +1,20 @@
+name: Write Wordcount
+on:
+  push:
+    branches:
+      - main
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: create file list
+        id: files_list
+        run: |
+          echo "files=$(printf '"%s" ' pages/stories/*.mdx)" > $GITHUB_OUTPUT
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: --lua-filter ./wordcount.lua --output=wordcount.txt ${{ steps.files_list.outputs.files }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: generate wordcount'
