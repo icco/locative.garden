@@ -22,7 +22,7 @@ function Index({ posts }) {
         {posts.map((post: { filePath: string; slug: string }) => (
           <li key={post.filePath}>
             <Link as={`/updates/${post.slug}`} href={`/updates/[slug]`}>
-              <a>{post.slug}</a>
+              {post.slug}
             </Link>
           </li>
         ))}
