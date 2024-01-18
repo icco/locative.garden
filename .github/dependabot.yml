@@ -1,0 +1,27 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      next:
+        patterns:
+          - "*next*"
+        update-types:
+          - "major"
+          - "minor"
+      mdx:
+        patterns:
+          - "*mdx*"
+        update-types:
+          - "major"
+          - "minor"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
