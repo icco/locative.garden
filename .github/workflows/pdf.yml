@@ -1,11 +1,9 @@
 name: Generate Book PDF
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
+  schedule:
+    # UTC
+    - cron: '24 0 * * *'
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-latest
