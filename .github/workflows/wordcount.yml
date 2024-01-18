@@ -4,17 +4,28 @@ on:
     branches:
       - main
 jobs:
-  convert_via_pandoc:
+  generateInputPaths:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: create file list
-        id: files_list
+      - name: Generate matrix
+        id: set-matrix
         run: |
-          echo "files=$(printf '"%s" ' pages/stories/*.mdx)" > $GITHUB_OUTPUT
+          echo "matrix=$(printf '"%s" ' pages/stories/*.mdx)" > $GITHUB_OUTPUT
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+  pandoc:
+    needs: generateInputPaths
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        path: ${{}}
+    steps:
+      - uses: actions/checkout@v4
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --lua-filter ./wordcount.lua --output=wordcount.txt ${{ steps.files_list.outputs.files }}
+          args: --lua-filter ./wordcount.lua --output=wordcount.txt ${{ fromJson(needs.generateInputPaths.outputs.matrix) }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore: generate wordcount'
