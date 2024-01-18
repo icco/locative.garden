@@ -1,7 +1,5 @@
-name: Advanced Usage
-
+name: Generate Book PDF
 on: push
-
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
@@ -11,6 +9,6 @@ jobs:
         with:
           args: --output=book.pdf pages/stories/*.mdx
       - run: |
-        git add .
-        git commit -m "generated"
-        git push
+          git add .
+          git commit -m "generated"
+          git push
