@@ -1,48 +1,48 @@
-a-damp-night.mdx
+./pages/stories/a-damp-night.mdx
 827 words in body
-airplane-cemetary.mdx
+./pages/stories/airplane-cemetary.mdx
 1019 words in body
-cities.mdx
+./pages/stories/cities.mdx
 5 words in body
-depression.mdx
+./pages/stories/depression.mdx
 304 words in body
-doors.mdx
+./pages/stories/doors.mdx
 499 words in body
-gatekeepers.mdx
+./pages/stories/gatekeepers.mdx
 9 words in body
-heartrate.mdx
+./pages/stories/heartrate.mdx
 16 words in body
-index.mdx
+./pages/stories/index.mdx
 79 words in body
-inside-shipping.mdx
+./pages/stories/inside-shipping.mdx
 14 words in body
-intro.mdx
+./pages/stories/intro.mdx
 633 words in body
-islands.mdx
+./pages/stories/islands.mdx
 145 words in body
-landing-at-hewey-vale.mdx
+./pages/stories/landing-at-hewey-vale.mdx
 2051 words in body
-life-by-number.mdx
+./pages/stories/life-by-number.mdx
 316 words in body
-light-collective.mdx
+./pages/stories/light-collective.mdx
 413 words in body
-living.mdx
+./pages/stories/living.mdx
 7 words in body
-location-apis.mdx
+./pages/stories/location-apis.mdx
 10 words in body
-places-written.mdx
+./pages/stories/places-written.mdx
 574 words in body
-planes-2022-02-22.mdx
+./pages/stories/planes-2022-02-22.mdx
 6 words in body
-rocky.mdx
+./pages/stories/rocky.mdx
 9 words in body
-root-network.mdx
+./pages/stories/root-network.mdx
 7 words in body
-space-magic.mdx
+./pages/stories/space-magic.mdx
 875 words in body
-thank-you.mdx
+./pages/stories/thank-you.mdx
 44 words in body
-trio.mdx
+./pages/stories/trio.mdx
 631 words in body
-weird-weather.mdx
+./pages/stories/weird-weather.mdx
 133 words in body
