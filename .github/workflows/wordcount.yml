@@ -25,7 +25,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --lua-filter ./wordcount.lua --output=wordcount.txt ${{  matrix.inputPath }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'chore: generate wordcount'
+          args: --lua-filter ./wordcount.lua ${{ matrix.path }}
