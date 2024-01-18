@@ -6,8 +6,6 @@
 5 words in body
 ./pages/stories/depression.mdx
 304 words in body
-./pages/stories/doors.mdx
-499 words in body
 ./pages/stories/gatekeepers.mdx
 9 words in body
 ./pages/stories/heartrate.mdx
@@ -40,9 +38,11 @@
 7 words in body
 ./pages/stories/space-magic.mdx
 875 words in body
+./pages/stories/stones.mdx
+499 words in body
 ./pages/stories/thank-you.mdx
 44 words in body
 ./pages/stories/trio.mdx
-631 words in body
+707 words in body
 ./pages/stories/weird-weather.mdx
-133 words in body
+267 words in body
