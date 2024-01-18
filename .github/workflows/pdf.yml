@@ -5,9 +5,13 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - name: create file list
+        id: files_list
+        run: |
+          echo "files=$(printf '"%s" ' pages/stories/*.mdx)" > $GITHUB_OUTPUT
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=book.pdf pages/stories/*.mdx
+          args: --output=book.pdf ${{ steps.files_list.outputs.files }}
       - run: |
           git add .
           git commit -m "generated"
