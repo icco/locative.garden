@@ -12,7 +12,6 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         with:
           args: --output=book.pdf ${{ steps.files_list.outputs.files }}
-      - run: |
-          git add .
-          git commit -m "generated"
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: generate sitemap'
