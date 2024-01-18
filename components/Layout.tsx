@@ -74,7 +74,7 @@ export default function Layout(props: any): JSX.Element {
         >
           <Box sx={{ mx: "auto" }} />
           <Box sx={{ py: 2 }}>
-            &copy; 2022{" "}
+            &copy; 2022 - 2024{" "}
             <a href="https://natwelch.com">Nathaniel &quot;Nat&quot; Welch</a>
           </Box>
         </Box>
