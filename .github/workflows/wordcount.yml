@@ -20,12 +20,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        path: ${{}}
+        path: ${{ fromJson(needs.generateInputPaths.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --lua-filter ./wordcount.lua --output=wordcount.txt ${{ fromJson(needs.generateInputPaths.outputs.matrix) }}
+          args: --lua-filter ./wordcount.lua --output=wordcount.txt ${{  matrix.inputPath }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore: generate wordcount'
