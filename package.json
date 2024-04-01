@@ -19,7 +19,7 @@
     "@mdx-js/react": "^3.0.0",
     "@next/env": "^14.0.4",
     "@next/mdx": "^14.0.4",
-    "@theme-ui/typography": "^0.16.0",
+    "@theme-ui/typography": "^0.16.2",
     "d3": "^7.3.0",
     "glob": "^10.0.0",
     "lodash.merge": "^4.6.2",
