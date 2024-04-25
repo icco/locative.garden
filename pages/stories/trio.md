@@ -46,7 +46,7 @@ Minutes pass as the light descends. Finally the ranger speaks up. "Is that spell
 "It is for detect evil, but conveniently also creates light" the mage smiles in response without looking away from the hole.
 
 
-
+---
 
 
 - **Introduction/Exposition:** Three heroes meet at a well.
