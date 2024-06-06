@@ -13,7 +13,7 @@ A union stands on the precipice.
 
 ---
 
-As the sun sets, the city shivers. Everyone stops for a second to feel the tremor. Deep underground, a bell is chiming. A deep resonate ring, slowly repeating, each time getting louder.
+As the sun sets, the city shivers. Citizens stop for a second to feel the tremor. Deep underground, a bell is chiming. A deep resonate ring, slowly repeating, each time getting louder.
 
 The swordsman looks up from his beer, wondering what the sound is. He stands, leaving a payment on the table, waving to the owner, and leaves the pub. His ears are not great, but still, he feels pulled towards the sound. Downhill, towards the city center, he walks. Fixated on what he believes is the direct source of the noise and vibrations.
 
@@ -41,12 +41,28 @@ She walks to the edge of the well, and begins muttering a spell. A light emerges
 
 The three stare as the white light descends slowly. 
 
-Minutes pass as the light descends. Finally the ranger speaks up. "Is that spell for light or something else?"
+Minutes pass as the light descends. Finally the ranger speaks up. "What did you just cast?"
 
 "It is for detect evil, but conveniently also creates light" the mage smiles in response without looking away from the hole.
 
+The light keeps descending, and shows a floor deep below.
+
+The ranger pulls out some rope, "shall we descend and investigate?"
+
+"Yes, let's do this" the swordsman responds.
+
+The rope is tied, and the trio climbs down into the well.
 
 ---
+
+At the bottom of the well, the party finds a small tunnel, and a dry riverbed. The magician follows her light as it heads one direction down the path, and the other two follow. They walk for a long while, as they do the swordsman starts up a conversation.
+
+"My name is Rankin, do either of you know what this ringing is? It's driving me a little nuts."
+
+
+
+---
+
 
 
 - **Introduction/Exposition:** Three heroes meet at a well.
