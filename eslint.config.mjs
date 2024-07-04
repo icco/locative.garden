@@ -1,53 +1,10 @@
-import _import from "eslint-plugin-import";
-import simpleImportSort from "eslint-plugin-simple-import-sort";
-import { fixupPluginRules } from "@eslint/compat";
-import tsParser from "@typescript-eslint/parser";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
+// @ts-check
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all
-});
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 
-export default [...compat.extends(
-  "eslint:recommended",
-  "next/core-web-vitals",
-  "plugin:@typescript-eslint/recommended",
-  "plugin:mdx/recommended",
-  "plugin:prettier/recommended",
-  "prettier",
-), {
-  plugins: {
-    "simple-import-sort": simpleImportSort,
-  },
-
-  languageOptions: {
-    parser: tsParser,
-    ecmaVersion: 5,
-    sourceType: "script",
-
-    parserOptions: {
-      ecmaFeatures: {
-        jsx: true,
-      },
-    },
-  },
-
-  settings: {
-    "mdx/code-blocks": true,
-  },
-
-  rules: {
-    "import/first": "error",
-    "import/newline-after-import": "error",
-    "import/no-duplicates": "error",
-    "simple-import-sort/exports": "error",
-    "simple-import-sort/imports": "error",
-  },
-}];
+export default tseslint.config(
+  eslint.configs.recommended,
+   ...tseslint.configs.strict,
+  ...tseslint.configs.stylistic,
+);
