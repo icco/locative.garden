@@ -12,7 +12,7 @@
 10. [Root Network (Story)](/stories/root-network)
 11. [Planes (Art)](/stories/planes-2022-02-22)
 12. [The Light Collective (Story)](/stories/light-collective)
-13. [Rocky (Art)](/stories/rocky)
+13. [Erasure (Art)](/stories/erasure)
 14. [The Landing at Hewey Vale (Story)](/stories/landing-at-hewey-vale)
 15. [Heartrate (Art)](/stories/heartrate)
 16. [A Damp Night (Story)](/stories/a-damp-night)
