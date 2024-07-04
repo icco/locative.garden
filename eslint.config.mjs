@@ -10,45 +10,44 @@ import { FlatCompat } from "@eslint/eslintrc";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all
 });
 
 export default [...compat.extends(
-    "eslint:recommended",
-    "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:mdx/recommended",
-    "plugin:prettier/recommended",
-    "prettier",
+  "eslint:recommended",
+  "next/core-web-vitals",
+  "plugin:@typescript-eslint/recommended",
+  "plugin:mdx/recommended",
+  "plugin:prettier/recommended",
+  "prettier",
 ), {
-    plugins: {
-        import: fixupPluginRules(_import),
-        "simple-import-sort": simpleImportSort,
-    },
+  plugins: {
+    "simple-import-sort": simpleImportSort,
+  },
 
-    languageOptions: {
-        parser: tsParser,
-        ecmaVersion: 5,
-        sourceType: "script",
+  languageOptions: {
+    parser: tsParser,
+    ecmaVersion: 5,
+    sourceType: "script",
 
-        parserOptions: {
-            ecmaFeatures: {
-                jsx: true,
-            },
-        },
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
     },
+  },
 
-    settings: {
-        "mdx/code-blocks": true,
-    },
+  settings: {
+    "mdx/code-blocks": true,
+  },
 
-    rules: {
-        "import/first": "error",
-        "import/newline-after-import": "error",
-        "import/no-duplicates": "error",
-        "simple-import-sort/exports": "error",
-        "simple-import-sort/imports": "error",
-    },
+  rules: {
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
+  },
 }];
