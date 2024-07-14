@@ -6,6 +6,8 @@
 5
 ./pages/stories/depression.md
 313
+./pages/stories/erasure.md
+76
 ./pages/stories/gatekeepers.md
 10
 ./pages/stories/heartrate.md
@@ -32,10 +34,8 @@
 574
 ./pages/stories/planes-2022-02-22.md
 6
-./pages/stories/rocky.md
-9
 ./pages/stories/root-network.md
-16
+138
 ./pages/stories/space-magic.md
 884
 ./pages/stories/stones.md
@@ -43,6 +43,6 @@
 ./pages/stories/thank-you.md
 44
 ./pages/stories/trio.md
-707
+812
 ./pages/stories/weird-weather.md
 267
