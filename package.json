@@ -33,7 +33,7 @@
     "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-0",
+    "@babel/core": "^7.26.0",
     "@types/d3": "^7.0.0",
     "@types/glob": "^8.0.0",
     "@types/react": "^18.0.0",
