@@ -48,7 +48,7 @@
     "get-graphql-schema": "^2.1.2",
     "prettier": "^3.2.4",
     "typescript": "^5.4.3",
-    "webpack": "^5.65.0"
+    "webpack": "^5.97.1"
   },
   "prettier": {
     "trailingComma": "es5",
