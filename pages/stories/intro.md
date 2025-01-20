@@ -44,3 +44,8 @@ Both of these communities have taught me that art, technology, nature and locati
 [^newline]: My second book, published by Newline and co-written with Steve Mcarthy. See https://reliableweb.dev.
 [^locative]: https://www.merriam-webster.com/dictionary/locative retrieved on 2022-01-09
 [^garden]: https://www.merriam-webster.com/dictionary/garden retrieved on 2022-01-09
+
+
+
+ewpage
+

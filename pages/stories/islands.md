@@ -22,3 +22,7 @@ Today, her day off, finally. She heads to the marina. There, on the grass, propp
 4. **Climax:** 
 5. **Falling Action:** 
 6. **Resolution/Denouement:**
+
+
+ewpage
+
