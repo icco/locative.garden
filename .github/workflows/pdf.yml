@@ -13,7 +13,7 @@ jobs:
         id: files_list
         run: |
           echo "files=$(printf '"%s" ' $(ls pages/stories/*.md | grep -v index)" > $GITHUB_OUTPUT
-      - uses: docker://pandoc/latex:2.9
+      - uses: docker://pandoc/latex:3.6-ubuntu
         with:
           args: --output=book.pdf pages/stories/index.md ${{ steps.files_list.outputs.files }}
       - uses: stefanzweifel/git-auto-commit-action@v5
