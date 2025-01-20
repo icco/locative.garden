@@ -22,3 +22,6 @@ I grab the paper as it slides onto its precarious plastic diving board. A weathe
 4. **Climax:** The remaining two members of the story reach the remote outpost. The outpost is remaining on the last few people due to power outage and lack of food.
 5. **Falling Action:** The team works to repair the generator, and starts predicting storms again. Radios for more food and help.
 6. **Resolution/Denouement:** The two surviving members stay on for a year to stabilize the base, and return home forever changed.
+
+\newpage
+

@@ -46,3 +46,7 @@ Longitude is the East to West number of your location on the planet. Combined wi
 -0.146364,"Belgrave House, 76 Buckingham Palace Rd, London SW1W 9TQ, United Kingdom"
 -0.126085,"St George Wharf, London SW8 2FH United Kingdom"
 -0.089098,"Matisse Court, 18 Featherstone St., London EC1Y 8SL, United Kingdom"
+
+
+\newpage
+
