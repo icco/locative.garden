@@ -12,10 +12,10 @@ jobs:
       - name: create file list
         id: files_list
         run: |
-          echo "files=$(printf '"%s" ' pages/stories/*.md)" > $GITHUB_OUTPUT
+          echo "files=$(printf '"%s" ' $(ls pages/stories/*.md | grep -v index)" > $GITHUB_OUTPUT
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=book.pdf ${{ steps.files_list.outputs.files }}
+          args: --output=book.pdf pages/stories/index.md ${{ steps.files_list.outputs.files }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: generate book'
