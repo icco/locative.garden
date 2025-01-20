@@ -26,7 +26,3 @@ Original Prompt:
 4. **Climax:** The heist goes terribly and results in two dead and two on the run. 
 5. **Falling Action:** After the escape, tragedy brings the two together, and they fall in love. 
 6. **Resolution/Denouement:** Many years later, the character comes across the stone, steps on, sees the bones of the dead man who was sleeping, and decides to stay in the city, happy.
-
-
-ewpage
-

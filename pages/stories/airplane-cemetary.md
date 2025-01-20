@@ -33,7 +33,3 @@ She finally makes it to the fence
 4. **Climax:** 
 5. **Falling Action:** 
 6. **Resolution/Denouement:**
-
-
-ewpage
-

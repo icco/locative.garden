@@ -28,7 +28,3 @@ It was a hit.
 4. **Climax:** 
 5. **Falling Action:** 
 6. **Resolution/Denouement:**
-
-
-ewpage
-

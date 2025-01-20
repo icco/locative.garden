@@ -26,8 +26,3 @@
 24. [Places this book was written at (Story)](/stories/places-written)
 25. Unknown Art 12
 26. Thank You
-
-
-
-ewpage
-
