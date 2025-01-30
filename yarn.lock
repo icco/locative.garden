@@ -319,10 +319,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz#4a2868d75d6d6963e423bcf90b7fd1be343409d3"
   integrity sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==
 
-"@icco/react-common@^2023.3.18-2":
-  version "2023.3.18-2"
-  resolved "https://registry.yarnpkg.com/@icco/react-common/-/react-common-2023.3.18-2.tgz#1c9cabfc751aa9a5fad67dc8a62d7732e72955b3"
-  integrity sha512-cgDi5HAMM+swdksucv/al5R+/tHaaB+yNWGlrf5WX11vJeDDAd6bbIA81lDv+YORzvPpNGv0J3AlWRRBRwAB3Q==
+"@icco/react-common@^2025.1.27-1":
+  version "2025.1.27-1"
+  resolved "https://registry.yarnpkg.com/@icco/react-common/-/react-common-2025.1.27-1.tgz#7f630a6ecfc17535aa8fd2b61e9daab874c82099"
+  integrity sha512-rAx2PtXyLJbUpb9i8UIzhyolHvMZP/jp0Nz575R8Sw3PT6OHhaDcxpyu6K0XUJFHlIkTjMNKLzIUg1IrIte4qg==
   dependencies:
     prop-types "^15.7"
     react-loading "^2.0"
