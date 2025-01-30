@@ -18,4 +18,8 @@ yarn run build
 git add public
 git diff --quiet --staged || git commit -m 'chore: update build artifacts'
 
+./wordcount.sh
+git add wordcount.txt
+git diff --quiet --staged || git commit -m 'chore: update wordcount'
+
 git push -u

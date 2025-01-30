@@ -41,7 +41,7 @@
 ./pages/stories/space-magic.md
 884
 ./pages/stories/stones.md
-644
+872
 ./pages/stories/thank-you.md
 44
 ./pages/stories/trio.md
