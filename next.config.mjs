@@ -17,7 +17,6 @@ const mdxWrapper = withMDX({
  */
 const nextConfig = mdxWrapper({
   pageExtensions: ["md", "mdx", "tsx", "ts", "jsx", "js"],
-  swcMinify: true,
 })
 
 export default nextConfig

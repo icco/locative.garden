@@ -7,7 +7,7 @@ import { ThemeProvider } from "theme-ui"
 export default function Locative({
   Component,
   pageProps,
-}: AppProps): JSX.Element {
+}: AppProps): React.JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
