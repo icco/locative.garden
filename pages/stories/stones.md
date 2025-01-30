@@ -4,15 +4,27 @@ On the western shore of a lake there rests a red pagoda. This pagoda has a singu
 
 I found this pagoda one misty morning while investigating the lake for a new fishing spot. I had cast into the lake at various areas that looked like they might be hiding some trout or bass, but nothing bit. I didn't fish for long, because I kept seeing the pagoda from the corner of my eye. It was so striking in its brilliant red color. It seemed to be almost glowing.
 
-Each cast, I noticed myself slowly navigating closer and closer to the structure, until I was so close I could see the sign. My curiosity was finally pushed to the breaking point and I put down my rod and walked over. My confusion was great. What path? There was only one stone. I looked around, maybe I was missing something. Nothing in the ground, no stones hidden in the moss or trail ducks sitting in the weeds. It didn't look like the lake had risen and taken some of the path either.
+Each cast, I noticed myself slowly navigating closer and closer to the structure, until I was so close I could see the sign. The flies I cast into the water were not sitting long enough for the fish to see them, but rather short enough for me to think I was fishing and not just walking over to this brilliant red structure. 
+
+My curiosity was finally pushed to the breaking point and I put down my rod and walked over. The sign was a simple wood plank. Not plywood, but solid oak. Weather-worn, but the words were cut into the wood, and the cuts looked freshly filled in shiny black paint.
+
+> Stay on the path.
+
+My confusion was great. What path? There was only one stone. I looked around, maybe I was missing something. Nothing in the ground, no stones hidden in the moss or trail ducks sitting in the weeds. It didn't look like the lake had risen and taken some of the stones into its depths either.
 
 Still confused, I drank a sip of coffee from my canteen,  and put it away in my pack. I stepped forward and stood on the stone and looked towards the lake.
 
 Something was off. Just a minute ago, there had been mist rising from the lake and a low fog in the air. Now there was no fog, no mist, but everything else was the same... until I looked down. Below me, now floating a few feet ahead, was another stone.
 
-Curious, I stepped on it. Another stone appeared in front of me. I was so fasciated, I kept jumping from stone to stone, until after a while, I noticed the lake below turn purple. I stopped abruptly on the stone and looked around. I was not in the same lake. I had maybe stepped ten or so times, and now the lake was purple, and there was only one stone behind me and one stone in font of me.
+Curious, I stepped on it. Another stone appeared in front of me. I was fasciated, I kept jumping from stone to stone, until after a while, I noticed the lake below had turned purple. I stopped abruptly on the stone and looked around. I was not in the same lake. I had maybe stepped ten or so times, and now the lake was purple, and there was only one stone behind me and one stone in font of me.
 
-The lake I stood floating upon now was much different in layout than the one I had left. The shore was much closer, the banks were not filled with reeds but rather black sand. I bent down to touch the water and it was not water at all, but some sort of viscous fluid, also the air was freezing cold, while my body above the stones was the same nice temperature as it was outside when I first got on the path.
+As I took in this shocking deep purple lack, I realized how unusual the stones were. They were perfect circles, slightly rounded on-top, and the little of the stone in front of me I could see was a straight pillar of stone, man made, or like a basalt column.
+
+The lake I stood in the middle of now was much different in layout than the one I had left. The shore was much closer, the banks were not filled with reeds but rather black sand. I bent down to touch the water and it was not water at all, but some sort of viscous fluid, also the air was freezing cold, while my body above the stones was the same nice temperature as it was outside when I first got on the path.
+
+This was so eerie. I had a quick thought of retreating, but I did not see any danger. I threw caution into the wind. I hopped to the next stone. 
+
+I kept jumping stone to stone. Sometimes the water or air would change, but usually it was the shore. It seemed to be closing in on me. The lake shrinking in size. The black sand was no longer sand, but was now looking more like pavement. I saw what looked like a pier to my right during one hop, the next it was more of a building on the shore.
 
 ---
 
