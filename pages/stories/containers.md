@@ -16,3 +16,6 @@ It was a bright and cold day. I walked the winding streets of my suburban neighb
 4. **Climax:**
 5. **Falling Action:**
 6. **Resolution/Denouement:**%
+
+\newpage
+
