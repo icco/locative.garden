@@ -4,5 +4,19 @@ My eyes feel heavy. For in this moment, I feel tired, depressed and lost. A frie
 
 It is so easy to get lost in this feeling, stuck in a room. Has the outside been erased? I see it through my window, and I can reach for it, but the energy to go there is lost.
 
+
+
+
+
+---
+
+1. **Introduction/Exposition:** 
+2. **Inciting Incident:** 
+3. **Rising Action:** 
+4. **Climax:** 
+5. **Falling Action:** 
+6. **Resolution/Denouement:**
+
+
 \newpage
 
