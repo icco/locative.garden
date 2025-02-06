@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install zsh & pandoc
-        run: sudo apt-get update; sudo apt-get install -y zsh pandoc latex
+        run: sudo apt-get update; sudo apt-get install -y zsh pandoc texlive
       - name: Set Node.js 22.x
         uses: actions/setup-node@v4
         with:
