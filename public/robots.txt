@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://locative.garden
-
-# Sitemaps
-Sitemap: https://locative.garden/sitemap.xml
