@@ -9,13 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: create file list
-        id: files_list
-        run: |
-          echo "files=$(printf '"%s" ' $(ls pages/stories/*.md | grep -v index))" > $GITHUB_OUTPUT
-      - uses: docker://pandoc/latex:3.6-ubuntu
+      - uses: typst-community/setup-typst@v4
         with:
-          args: --output=book.pdf "pages/stories/index.md" ${{ steps.files_list.outputs.files }}
+          cache-dependency-path: requirements.typ
+      - run: typst compile main.typ
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: generate book'
