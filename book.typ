@@ -8,7 +8,7 @@
   author: "Author",
 
   // The paper size to use.
-  paper-size: "iso-b5",
+  paper-size: "a5",
 
   // A dedication to display on the third page.
   dedication: none,
@@ -79,45 +79,13 @@
   set par(spacing: 0.78em, leading: 0.78em, first-line-indent: 12pt, justify: true)
 
   // Start with a chapter outline.
-  outline(title: [Chapters])
+  outline(title: [Chapters], depth: 1)
+
   pagebreak(to: "odd", weak: true)
 
   // Configure page properties.
   set page(
-    // The header always contains the book title on odd pages and
-    // the author on even pages, unless
-    // - we are on an empty page
-    // - we are on a page that starts a chapter
-    header: context {
-      // Is this an empty page inserted to keep page parity?
-      if is-page-empty() {
-        return
-      }
-
-      // Are we on a page that starts a chapter?
-      let i = here().page()
-      if query(heading).any(it => it.location().page() == i) {
-        return
-      }
-
-      // Find the heading of the section we are currently in.
-      let before = query(selector(heading).before(here()))
-      if before != () {
-        set text(0.95em)
-        let header = smallcaps(before.last().body)
-        let title = smallcaps(title)
-        let author = text(style: "italic", author)
-        grid(
-          columns: (1fr, 10fr, 1fr),
-          align: (left, center, right),
-          if calc.even(i) [#i],
-          // Swap `author` and `title` around, or possibly with `heading`
-          // to change what is displayed on each side.
-          if calc.even(i) { author } else { title },
-          if calc.odd(i) [#i],
-        )
-      }
-    },
+    header: []
   )
 
   // Configure chapter headings.
@@ -135,7 +103,7 @@
     text(2em, weight: 700, block([#number #it.body]))
     v(1.25em)
   }
-  show heading: set text(11pt, weight: 400)
+ // show heading: set text(11pt, weight: 400)
 
   body
 }
