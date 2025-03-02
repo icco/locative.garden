@@ -44,7 +44,7 @@ Looking down, I step over the puddle and into the alleyway. I look back up and t
 
 I am now in a very cold city alley. Rubbish litters the ground. A light wind blows. The walls to my left are brick and to my right solid metal. Both covered many layers of graffiti. In front of me is a chain link fence I think, it's dark. Turning around, I see a street with some lights. I am pretty far down this alley, but I think I can also hear some music? The buildings shoot so high into the sky I can't see the end.
 
-I start walking towards the music.
+I start walking towards the music. The low rumble and thump gets louder as I approach, reverberating deep in my chest.
 
 ---
 
