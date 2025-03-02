@@ -1,5 +1,3 @@
-# Introduction
-
 Why? Why did I decide to start a Kickstarter? I have no idea. I was sitting on a porch overlooking the Atlantic Ocean on the island of Saint Croix in the U.S. Virgin Islands. It was Christmas Day, 2021. Sitting alone, while my family was at the beach, I was thinking through all sorts of things, wandering across the internet. 
 
 My last two books were written about non-fiction topics that I knew a lot about. But I don't actually enjoy non-fiction, reading or writing it. So I figured I needed a boost, a kick in the pants, to get me back to writing fiction. Fiction which I hadn't written in any consistent manner since high school. I graduated high school in 2006.
