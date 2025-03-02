@@ -32,6 +32,3 @@
 24. [Places this book was written at (Story)](/stories/places-written)
 25. Unknown Art 12
 26. Thank You
-#include "chpt1.typ"
-
-#include "chpt2.typ"
