@@ -1,5 +1,4 @@
-#let title = [Weird Weather]
-
+= Weird Weather
 
 The drone is deafening.
 

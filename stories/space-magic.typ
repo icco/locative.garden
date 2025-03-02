@@ -1,4 +1,4 @@
-#let title = [Space Magic]
+= Space Magic
 
 
 Ring space stations are where the good money is for gravity mages. While Arclight is a perpetually spinning ring with an artificial sun and a constant nine meters per second of gravity, someone always needs a little bit of space magic to fix their problem.

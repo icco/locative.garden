@@ -1,4 +1,4 @@
-#let title = [Airplane Cemetery]
+= Airplane Cemetery
 
 
 Throughout the western United States there are large dust fields full of aircraft. Some are full of planes built for World War II, some are commercial planes currently not being used, and others are just planes that have been abandoned to time. These fields are called boneyards, and they have acres upon acres of airplanes.

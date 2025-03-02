@@ -1,4 +1,4 @@
-#let title = [Stones]
+= Stones
 
 
 On the western shore of a lake there rests a red pagoda. This pagoda has a singular stone beneath it. This stone is roughly two feet in diameter, with a sign to the right of it. The sign, in bold letters, instructs you to stay on the path.

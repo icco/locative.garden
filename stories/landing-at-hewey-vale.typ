@@ -1,4 +1,4 @@
-#let title = [The Landing at Hewey Vale]
+= The Landing at Hewey Vale
 
 
 If you are traveling east on the road to the great city of Tarn, and you are coming from the other great city of this world, Angelino, you will find yourself on top of small mountain. Below you, you see a valley with a huge river. First time travelers may be concerned, because it looks far too wide to easily cross with a wagon or horses, but the experienced merchant or traveler will know, this is Hewey Vale, and Frederick runs a ferry to cross this immense river.

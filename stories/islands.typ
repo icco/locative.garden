@@ -1,4 +1,4 @@
-#let title = [Islands]
+= Islands
 
 
 As the waves crash, she wanders the tables of the hotel, making sure everything is in order. Customers are greeted, stories are shared, drinks are ordered. One table found a fly in their pizza. A smile and an offer to replace it. Marta briefly watches the cats roaming the patio looking for rats and scraps. 

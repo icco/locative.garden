@@ -1,4 +1,4 @@
-#let title = [A Damp Night]
+= A Damp Night
 
 
 The city is quiet. A dog trots by. A man smelling of shit and urine sits under a brightly lit sign window. An empty paper cup sits by his foot. No one is on the street to fill it.

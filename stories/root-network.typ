@@ -1,4 +1,4 @@
-#let title = [Uroot network]
+= Root Network
 
 The world tree and its root network.
 

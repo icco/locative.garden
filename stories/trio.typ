@@ -1,5 +1,4 @@
-#let title = [Trio]
-
+= Trio
 
 A young ranger in a quiet wood.  
 An ancient doorless structure stands in her way.

@@ -1,4 +1,4 @@
-#let title = [Heartrate]
+= Heartrat
 
 
 A piece of art in processing using my heartrate data from Fitbit.

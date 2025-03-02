@@ -1,4 +1,4 @@
-#let title = [The Light Collective]
+= The Light Collective
 
 
 In the fall of 2025, five Americans started at the University of Greenwich, in London, England. Their studies were different, but met each other in an English class, and became friends over their love of Sculpture, Electronics, Graffiti, and Post-Punk Rock. Other Americans in London blend into other culture groups, as the United States has much less of a defined culture compared to other nations coming into London for school and work. These five though made their own social group, and became fast friends.

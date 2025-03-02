@@ -1,4 +1,4 @@
-#let title = [Ulocation apis]
+= Location APIs
 
 A look into APIs for getting your current location
 

@@ -1,5 +1,4 @@
-#let title = [Depression]
-
+= Depression
 
 Depression is a wild experience. Some days, you're doing great. Life is just normal. Some people anger you, some excite you, and some make you happy. But every once in a while, depression is like taking an elevator to a deep dark basement. You'll get out at some point, but for a long time you'll be wandering in the dark. Nothing can make the day good. You might cry, get overwhelmed, be less than normal, it's a constant thing, even if the emotions aren't.
 

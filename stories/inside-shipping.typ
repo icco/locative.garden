@@ -1,4 +1,4 @@
-#let title = [Uinside shipping]
+= Inside Shipping
 
 A story about breathing exercises, sleep, and the shipping factory inside of your body.
 

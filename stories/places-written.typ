@@ -1,4 +1,4 @@
-#let title = [Places this book was written]
+= Places this book was written
 
 
 The following contains a set of vignettes written either during or after I was writing at each of these places. I often used these little paragraphs as a way to warm up my typing and thinking.

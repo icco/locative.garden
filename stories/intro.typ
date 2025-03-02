@@ -1,4 +1,4 @@
-#let title = [Introduction]
+= Introduction
 
 Why? Why did I decide to start a Kickstarter? I have no idea. I was sitting on a porch overlooking the Atlantic Ocean on the island of Saint Croix in the U.S. Virgin Islands. It was Christmas Day, 2021. Sitting alone, while my family was at the beach, I was thinking through all sorts of things, wandering across the internet. 
 

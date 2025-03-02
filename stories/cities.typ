@@ -1,4 +1,4 @@
-#let title = [Cities]
+= Cities
 
 TODO
 

@@ -1,4 +1,4 @@
-#let title = [Containers]
+= Containers
 
 
 I have a love of containers. Shipping containers. Coffee mugs. Boxes. Backpacks. Pots. Glasses. They all hold something, and each one is unique. Well designed with a purpose, but as they hold more and are used they warp and change. A the fabric on a backpack stains and tears. A mug acquires rings from coffee and tea let standing too long. A shipping container full of dents, graffiti and rust from its long journeys. A fresh box of cardboard made from the pulp of recycled boxes that traveled the world itself.

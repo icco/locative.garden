@@ -1,5 +1,4 @@
-#let title = [Thank You]
-
+= Thank You
 
 Thank you so much for reading and helping create this book. I've never created anything like this, and your support means the world to me.
 

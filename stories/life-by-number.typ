@@ -1,4 +1,4 @@
-#let title = [Life by Longitude.]
+= Life by Longitude.
 
 
 Longitude is the East to West number of your location on the planet. Combined with Latitude (Your North to South number) you can pinpoint any location. Because of the curvature of the Earth, each number is pretty useless without each other. 
