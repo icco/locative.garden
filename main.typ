@@ -4,7 +4,17 @@
   title: [locative.garden],
   author: "Nat Welch",
   dedication: [for Melissa],
+  paper: "a5",
 )
+
+#set heading(numbering: none)
+
+#outline(
+  title: "Table of Contents",
+  depth: 1
+)
+
+#pagebreak()
 
 #include "stories/intro.typ"
 #include "stories/stones.typ"
