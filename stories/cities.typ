@@ -1,9 +1,6 @@
 #let title = [Cities]
 
-
-# Cities
-
-<Cities />
+TODO
 
 #pagebreak()
 
