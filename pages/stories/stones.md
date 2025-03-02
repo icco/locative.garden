@@ -26,8 +26,29 @@ This was so eerie. I had a quick thought of retreating, but I did not see any da
 
 I kept jumping stone to stone. Sometimes the water or air would change, but usually it was the shore. It seemed to be closing in on me. The lake shrinking in size. The black sand was no longer sand, but was now looking more like pavement. I saw what looked like a pier to my right during one hop, the next it was more of a building on the shore.
 
+And then I could not keep jumping.
+
+I was standing on a raised bump of asphalt in the middle of a puddle in a dark alleyway. On the what looked like the next stone in front of me was an old man blocking my path. He was sitting cross legged with his back to me. He was wearing a heavily patched brown pilots jacket. His hair was a disheveled dark grey, with a large bald spot in the center. I couldn't see his face. I waited for a moment to see if he would notice me behind him.
+
+Nothing.
+
+"Hello? Could you move aside please?"
+
+Nothing.
+
+I can't jump over him. I don't want to jump on him. Maybe I should try to go around... but the sign said not to leave the path... 
+
+I guess it was just a sign. As the saying goes, signs aren't cops...
+
+Looking down, I step over the puddle and into the alleyway. I look back up and the man is gone. There is no sign of the path at all besides the bump in the puddle. 
+
+I am now in a very cold city alley. Rubbish litters the ground. A light wind blows. The walls to my left are brick and to my right solid metal. Both covered many layers of graffiti. In front of me is a chain link fence I think, it's dark. Turning around, I see a street with some lights. I am pretty far down this alley, but I think I can also hear some music? The buildings shoot so high into the sky I can't see the end.
+
+I start walking towards the music.
+
 ---
 
+Theme: Deviations from the plan can lead to life long discovery. Enjoy what you have.
 
 Original Prompt:
 > A writer stumbles upon a mysterious garden that transports people to different dimensions with each step they take.
