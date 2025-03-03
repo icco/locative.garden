@@ -8,7 +8,7 @@
 
 #include "stories/intro.typ"
 #include "stories/stones.typ"
-#include "stories/photo.typ"
+#include "stories/green-fields.typ"
 #include "stories/airplane-cemetary.typ"
 #include "stories/cities.typ"
 #include "stories/islands.typ"
