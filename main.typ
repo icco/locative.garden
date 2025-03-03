@@ -32,3 +32,5 @@
 #include "stories/places-written.typ"
 #include "stories/unknown-art-12.typ"
 #include "stories/thank-you.typ"
+
+#bibliography("sources.bib", style: "chicago-notes")
