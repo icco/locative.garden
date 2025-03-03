@@ -10,9 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: typst-community/setup-typst@v4
-        with:
-          cache-dependency-path: requirements.typ
-      - run: typst compile main.typ
+      - run: typst compile --pdf-standard=a-2b main.typ
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: generate book'
