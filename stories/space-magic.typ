@@ -46,5 +46,5 @@ Gangs bring in a gravity mage who is causing turmoil across the station? Stumble
 5. *Falling Action:* 
 6. *Resolution/Denouement:*
 
-#pagebreak()
+
 

@@ -43,5 +43,5 @@ I bought a pound of coffee beans when I got the coffee and cookie, as they appar
 A cute but weird hotel bar. Listening to couples discuss Valentine's Day, stories of their youth, pre-pandemic endeavors. Most couples are older. One pair is headed to a steakhouse for dinner. The bartender is a kind woman with a loud laugh from Nicaragua. Only Heineken on draft, but a decent bottle list for beers. The chairs are comfy, but the tables are all small hexagons which makes typing a bit difficult.
 
 
-#pagebreak()
+
 

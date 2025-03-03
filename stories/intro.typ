@@ -28,5 +28,5 @@ Once I graduated from college in 2011, I started using my money to travel and be
 
 Both of these communities have taught me that art, technology, nature and location are deeply intertwined, and because of that, I decided in 2022 I would take my notes, short stories, doodles and photographs and publish them as a small book to share back what I've learned from these and other communities about location.
 
-#pagebreak()
+
 

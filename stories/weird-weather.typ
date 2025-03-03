@@ -23,5 +23,5 @@ I grab the paper as it slides onto its precarious plastic diving board. A weathe
 5. *Falling Action:* The team works to repair the generator, and starts predicting storms again. Radios for more food and help.
 6. *Resolution/Denouement:* The two surviving members stay on for a year to stabilize the base, and return home forever changed.
 
-#pagebreak()
+
 

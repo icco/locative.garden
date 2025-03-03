@@ -26,5 +26,5 @@ Initial Prompt: I am writing a collection of short stories. This is a new story 
 6. *Resolution/Denouement:* While still dealing with depression, they find a balance between their need for physical solitude and maintaining meaningful connections through technology, understanding that isolation doesn't have to mean complete disconnection.
 
 
-#pagebreak()
+
 
