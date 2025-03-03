@@ -10,11 +10,13 @@ So I created the kickstarter, and in less than three days, I had enough folks co
 
 == What is locative.garden
 
-Definition of locative: of, relating to, or being a grammatical case that denotes the place where someone or something is present or the place where an event occurs.#footnote[https://www.merriam-webster.com/dictionary/locative retrieved on 2022-01-09]
+/ Locative: of, relating to, or being a grammatical case that denotes the place where someone or something is present or the place where an event occurs.#footnote[https://www.merriam-webster.com/dictionary/locative retrieved on 2022-01-09]
 
-Definition of garden: a plot of ground where herbs, fruits, flowers, or vegetables are cultivated.#footnote[https://www.merriam-webster.com/dictionary/garden retrieved on 2022-01-09]
+/ Garden: a plot of ground where herbs, fruits, flowers, or vegetables are cultivated.#footnote[https://www.merriam-webster.com/dictionary/garden retrieved on 2022-01-09]
 
 == Who is Nat Welch
+
+...
 
 == Original Kickstarter Announcement
 
