@@ -47,6 +47,18 @@ I am now in a very cold city alley. Rubbish litters the ground. A light wind blo
 
 I start walking towards the music. The low rumble and thump gets louder as I approach, reverberating deep in my chest.
 
+The music is loud. A man stands on a sidewalk with a pile of boxes supporting two large speakers. He is bobbing his head to the music, lost in it and the decision on what to play next. Surrounding him in front of the speakers is a crowd of people. Maybe like fifty? Many are dancing, some are just standing and watching.
+
+I watch at a distance. The people don't look happy or healthy. They are beaten, dirty and ragged, but they are dancing. I don't recognize the music. A loud crack of thunder interrupts my observation. The man with the speakers looks up at the sky. He cuts the music immediately. The crowd disperses, some running for cover, others run down the street, as if the music never happened. The man looks at me, his eyes wide with fear. He shoves the speakers into a shopping cart and runs down the street.
+
+Another clap of thunder. Rain starts to fall. I look around for a place to hide. I see someone duck into a business that his a dim light comming out of it. I run and follow them inside. 
+
+Inside is a small bar. A few people are inside. The bartender is a woman with a kind face. She nods at me in greeting. I look around. The place is small, maybe 1000 square feet. There are no tables tables, just a bar with a few stools. The walls are covered in graffiti. The floor is a dark wood. The bar top is a dark wood as well.
+
+I pull up a stool and sit down. I ask for some water. The bartender grimaces, but pours me a glass. I stare out the window as the rain get 
+
+
+
 #line(length: 100%, stroke: 0.5pt)
 
 Theme: Deviations from the plan can lead to life long discovery. Enjoy what you have.
