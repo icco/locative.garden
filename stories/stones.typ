@@ -59,6 +59,13 @@ I pull up a stool and sit down. I ask for some water. The bartender grimaces, bu
 
 
 
+
+
+
+
+
+
+
 #line(length: 100%, stroke: 0.5pt)
 
 Theme: Deviations from the plan can lead to life long discovery. Enjoy what you have.
